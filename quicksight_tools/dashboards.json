@@ -1,0 +1,335 @@
+[
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/057dd0c7-bd46-4d28-b360-d18f7278417a",
+        "CreatedTime": "2023-02-01 13:48:23.709000-05:00",
+        "DashboardId": "057dd0c7-bd46-4d28-b360-d18f7278417a",
+        "LastPublishedTime": "2023-02-01 13:48:23.709000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:23.703000-05:00",
+        "Name": "rick 3",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/166ed0b0-756a-4a4f-9e20-41537870ad12",
+        "CreatedTime": "2023-02-01 11:39:32.459000-05:00",
+        "DashboardId": "166ed0b0-756a-4a4f-9e20-41537870ad12",
+        "LastPublishedTime": "2023-02-01 11:39:32.459000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:39:32.454000-05:00",
+        "Name": "Sales Dashboard",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/1a4f238b-f8e6-42a0-ac54-d16b9de2deca",
+        "CreatedTime": "2023-02-01 11:38:51.687000-05:00",
+        "DashboardId": "1a4f238b-f8e6-42a0-ac54-d16b9de2deca",
+        "LastPublishedTime": "2023-02-01 11:38:51.687000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:51.682000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/20940e7b-bfba-42af-bb76-ff3d41ca3fa6",
+        "CreatedTime": "2023-02-01 13:50:29.610000-05:00",
+        "DashboardId": "20940e7b-bfba-42af-bb76-ff3d41ca3fa6",
+        "LastPublishedTime": "2023-02-01 13:50:29.610000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:50:29.600000-05:00",
+        "Name": "New Dash 2",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/21d47c27-3c5e-465c-ba45-cb47799c3823",
+        "CreatedTime": "2022-09-12 11:12:54.529000-04:00",
+        "DashboardId": "21d47c27-3c5e-465c-ba45-cb47799c3823",
+        "LastPublishedTime": "2022-09-12 11:12:54.529000-04:00",
+        "LastUpdatedTime": "2022-09-12 11:12:54.523000-04:00",
+        "Name": "Production - Final*",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/296b757e-a188-405a-a703-67558e61f499",
+        "CreatedTime": "2022-09-14 09:27:19.715000-04:00",
+        "DashboardId": "296b757e-a188-405a-a703-67558e61f499",
+        "LastPublishedTime": "2022-09-14 09:27:19.715000-04:00",
+        "LastUpdatedTime": "2022-09-15 10:27:17.330000-04:00",
+        "Name": "Member Services - MASTER",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/3e128065-89b2-40e1-9541-9ca1f727b8cf",
+        "CreatedTime": "2022-12-20 15:11:18.434000-05:00",
+        "DashboardId": "3e128065-89b2-40e1-9541-9ca1f727b8cf",
+        "LastPublishedTime": "2022-12-20 15:11:18.434000-05:00",
+        "LastUpdatedTime": "2023-01-03 10:37:00.707000-05:00",
+        "Name": "APE Dashboard",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/426ef784-071b-40e9-8bbe-bec8256de0ce",
+        "CreatedTime": "2023-02-01 11:38:24.951000-05:00",
+        "DashboardId": "426ef784-071b-40e9-8bbe-bec8256de0ce",
+        "LastPublishedTime": "2023-02-01 11:38:24.951000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:24.945000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/4357f489-6835-4fb6-b8ec-e8544b3e8e67",
+        "CreatedTime": "2023-02-01 11:38:28.271000-05:00",
+        "DashboardId": "4357f489-6835-4fb6-b8ec-e8544b3e8e67",
+        "LastPublishedTime": "2023-02-01 11:38:28.271000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:28.209000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/6348d861-2258-46c2-b2b5-71c55b26cb36",
+        "CreatedTime": "2023-02-01 11:38:27.054000-05:00",
+        "DashboardId": "6348d861-2258-46c2-b2b5-71c55b26cb36",
+        "LastPublishedTime": "2023-02-01 11:38:27.054000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:27.048000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/6ae09d66-9f80-4302-b028-7ca5ede8326b",
+        "CreatedTime": "2023-02-01 12:37:18.824000-05:00",
+        "DashboardId": "6ae09d66-9f80-4302-b028-7ca5ede8326b",
+        "LastPublishedTime": "2023-02-01 12:37:18.824000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:29.912000-05:00",
+        "Name": "Sales Enhanced",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/6d589c73-7503-4954-b705-0dc8366a99f7",
+        "CreatedTime": "2023-02-01 12:35:59.903000-05:00",
+        "DashboardId": "6d589c73-7503-4954-b705-0dc8366a99f7",
+        "LastPublishedTime": "2023-02-01 12:35:59.903000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:35:59.896000-05:00",
+        "Name": "Immersion Day Dash 2",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/7cb1503b-518a-426b-8d5e-3494e8ddd640",
+        "CreatedTime": "2023-02-01 12:36:21.099000-05:00",
+        "DashboardId": "7cb1503b-518a-426b-8d5e-3494e8ddd640",
+        "LastPublishedTime": "2023-02-01 12:36:21.099000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:31.640000-05:00",
+        "Name": "Sales Enhanced NM",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/7e66b7d9-011d-43be-96a7-1a8cedf92b61",
+        "CreatedTime": "2022-07-19 14:44:56.821000-04:00",
+        "DashboardId": "7e66b7d9-011d-43be-96a7-1a8cedf92b61",
+        "LastPublishedTime": "2022-07-19 14:44:56.821000-04:00",
+        "LastUpdatedTime": "2022-07-20 11:19:35.322000-04:00",
+        "Name": "Customer Service",
+        "PublishedVersionNumber": 3
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/84bc938b-3db1-430e-b2e5-c919c0e92347",
+        "CreatedTime": "2023-02-01 11:38:26.130000-05:00",
+        "DashboardId": "84bc938b-3db1-430e-b2e5-c919c0e92347",
+        "LastPublishedTime": "2023-02-01 11:38:26.130000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:26.123000-05:00",
+        "Name": "Sales overview test",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/8532a79f-c63a-46d1-996f-8f5192cf9c94",
+        "CreatedTime": "2022-10-05 15:21:35.144000-04:00",
+        "DashboardId": "8532a79f-c63a-46d1-996f-8f5192cf9c94",
+        "LastPublishedTime": "2022-10-05 15:21:35.144000-04:00",
+        "LastUpdatedTime": "2022-10-05 15:21:35.134000-04:00",
+        "Name": "APE_Dash2",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/85475009-e4fe-4802-8b7a-f1ba22a48fd9",
+        "CreatedTime": "2022-06-22 15:33:41.078000-04:00",
+        "DashboardId": "85475009-e4fe-4802-8b7a-f1ba22a48fd9",
+        "LastPublishedTime": "2022-06-22 15:33:41.078000-04:00",
+        "LastUpdatedTime": "2022-06-22 15:33:41.071000-04:00",
+        "Name": "Membership",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/859c5c99-df89-4211-b613-09e420b5d668",
+        "CreatedTime": "2022-10-18 15:04:46.873000-04:00",
+        "DashboardId": "859c5c99-df89-4211-b613-09e420b5d668",
+        "LastPublishedTime": "2022-10-18 15:04:46.873000-04:00",
+        "LastUpdatedTime": "2022-10-18 15:04:46.865000-04:00",
+        "Name": "Testytest",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/88f61f9d-3be1-434c-8a4a-0cec479f37ef",
+        "CreatedTime": "2023-02-01 11:38:28.640000-05:00",
+        "DashboardId": "88f61f9d-3be1-434c-8a4a-0cec479f37ef",
+        "LastPublishedTime": "2023-02-01 11:38:28.640000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:28.632000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/90b77bc8-2f23-4496-a428-fbe70c1ab319",
+        "CreatedTime": "2023-02-01 11:38:44.314000-05:00",
+        "DashboardId": "90b77bc8-2f23-4496-a428-fbe70c1ab319",
+        "LastPublishedTime": "2023-02-01 11:38:44.314000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:44.307000-05:00",
+        "Name": "Sales",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/9d8d1079-559c-470d-8c5b-b6cf79d7b864",
+        "CreatedTime": "2023-02-01 11:38:24.987000-05:00",
+        "DashboardId": "9d8d1079-559c-470d-8c5b-b6cf79d7b864",
+        "LastPublishedTime": "2023-02-01 11:38:24.987000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:24.979000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/a9b7fa06-68fa-4056-9aa1-0494999fd9cc",
+        "CreatedTime": "2023-02-01 11:38:25.053000-05:00",
+        "DashboardId": "a9b7fa06-68fa-4056-9aa1-0494999fd9cc",
+        "LastPublishedTime": "2023-02-01 11:38:25.053000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:25.042000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/afb8ce67-b86f-4e88-a999-8448e6e83175",
+        "CreatedTime": "2023-02-01 12:37:16.294000-05:00",
+        "DashboardId": "afb8ce67-b86f-4e88-a999-8448e6e83175",
+        "LastPublishedTime": "2023-02-01 12:37:16.294000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:28.581000-05:00",
+        "Name": "Sales - Enhanced NM",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/b44bd01b-6d17-49e9-8a86-b7a02a3aa41b",
+        "CreatedTime": "2023-02-01 12:36:20.608000-05:00",
+        "DashboardId": "b44bd01b-6d17-49e9-8a86-b7a02a3aa41b",
+        "LastPublishedTime": "2023-02-01 12:36:20.608000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:30.838000-05:00",
+        "Name": "Sales Enhanced ",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/b8ba3da7-2c57-487e-b7b5-e0e6dcc71167",
+        "CreatedTime": "2023-02-01 12:36:40.908000-05:00",
+        "DashboardId": "b8ba3da7-2c57-487e-b7b5-e0e6dcc71167",
+        "LastPublishedTime": "2023-02-01 12:36:40.908000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:36:40.902000-05:00",
+        "Name": "rick no 2",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/c6356255-b24f-4acf-81c2-a6a570d4c810",
+        "CreatedTime": "2023-02-01 11:08:54.035000-05:00",
+        "DashboardId": "c6356255-b24f-4acf-81c2-a6a570d4c810",
+        "LastPublishedTime": "2023-02-01 11:08:54.035000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:08:54.030000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/cc78b636-7b73-4b4a-94a1-0fcc9ebe1e26",
+        "CreatedTime": "2023-02-01 12:48:57.665000-05:00",
+        "DashboardId": "cc78b636-7b73-4b4a-94a1-0fcc9ebe1e26",
+        "LastPublishedTime": "2023-02-01 12:48:57.665000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:48:57.659000-05:00",
+        "Name": "Sales Analysis 2",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/cedb7cec-a420-4b86-97a7-744ab684e0f2",
+        "CreatedTime": "2022-06-22 14:46:06.475000-04:00",
+        "DashboardId": "cedb7cec-a420-4b86-97a7-744ab684e0f2",
+        "LastPublishedTime": "2022-06-22 14:46:06.475000-04:00",
+        "LastUpdatedTime": "2022-06-27 13:26:04.944000-04:00",
+        "Name": "Membership Dashboard (SPICE)",
+        "PublishedVersionNumber": 3
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/cf53a64b-4a8a-4a50-a83f-1f445badb579",
+        "CreatedTime": "2023-02-01 12:36:41.183000-05:00",
+        "DashboardId": "cf53a64b-4a8a-4a50-a83f-1f445badb579",
+        "LastPublishedTime": "2023-02-01 12:36:41.183000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:52:22.444000-05:00",
+        "Name": "Terribly Formatted Dashboard - Test",
+        "PublishedVersionNumber": 3
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/de5c3b1d-49ac-470a-9db3-5bed72d4c6ad",
+        "CreatedTime": "2022-09-13 10:25:22.442000-04:00",
+        "DashboardId": "de5c3b1d-49ac-470a-9db3-5bed72d4c6ad",
+        "LastPublishedTime": "2022-09-13 10:25:22.442000-04:00",
+        "LastUpdatedTime": "2022-09-13 10:25:22.435000-04:00",
+        "Name": "Member Services",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/e17e55b2-eb4b-4fbc-926e-57ad71e97397",
+        "CreatedTime": "2023-02-01 11:38:53.181000-05:00",
+        "DashboardId": "e17e55b2-eb4b-4fbc-926e-57ad71e97397",
+        "LastPublishedTime": "2023-02-01 11:38:53.181000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:53.175000-05:00",
+        "Name": "Devlin's Cool Dashboard - Test",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/e31eaf8a-3fff-4dc4-a3d1-6da5e175dccd",
+        "CreatedTime": "2023-02-01 12:36:19.565000-05:00",
+        "DashboardId": "e31eaf8a-3fff-4dc4-a3d1-6da5e175dccd",
+        "LastPublishedTime": "2023-02-01 12:36:19.565000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:38.858000-05:00",
+        "Name": "Sales Enhanced NMAA",
+        "PublishedVersionNumber": 2
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/ec49821c-f27a-45d1-93eb-171f12a71713",
+        "CreatedTime": "2022-09-15 10:27:47.525000-04:00",
+        "DashboardId": "ec49821c-f27a-45d1-93eb-171f12a71713",
+        "LastPublishedTime": "2022-09-15 10:27:47.525000-04:00",
+        "LastUpdatedTime": "2022-09-15 10:27:47.519000-04:00",
+        "Name": "Production - MASTER",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/efd710f0-1c59-456f-ab5a-c95d23cb3fb0",
+        "CreatedTime": "2023-02-09 14:08:36.483000-05:00",
+        "DashboardId": "efd710f0-1c59-456f-ab5a-c95d23cb3fb0",
+        "LastPublishedTime": "2023-02-09 14:08:36.483000-05:00",
+        "LastUpdatedTime": "2023-02-09 14:08:36.478000-05:00",
+        "Name": "Test 1",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/f37a6f50-ca52-41dd-afbd-7d46b013460e",
+        "CreatedTime": "2023-02-01 11:38:28.454000-05:00",
+        "DashboardId": "f37a6f50-ca52-41dd-afbd-7d46b013460e",
+        "LastPublishedTime": "2023-02-01 11:38:28.454000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:28.447000-05:00",
+        "Name": "sales overview rick",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/faa2e730-eaf3-43c8-906d-3378dff4c6bf",
+        "CreatedTime": "2023-02-01 11:40:10.787000-05:00",
+        "DashboardId": "faa2e730-eaf3-43c8-906d-3378dff4c6bf",
+        "LastPublishedTime": "2023-02-01 11:40:10.787000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:40:10.781000-05:00",
+        "Name": "Sales Activation Overview",
+        "PublishedVersionNumber": 1
+    },
+    {
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:dashboard/fee8732a-fa7b-455d-a505-6e22d60dc9d7",
+        "CreatedTime": "2023-02-01 11:38:45.039000-05:00",
+        "DashboardId": "fee8732a-fa7b-455d-a505-6e22d60dc9d7",
+        "LastPublishedTime": "2023-02-01 11:38:45.039000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:45.032000-05:00",
+        "Name": "Sales Overview",
+        "PublishedVersionNumber": 1
+    }
+]

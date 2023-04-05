@@ -1,0 +1,2010 @@
+[
+    {
+        "AnalysisId": "0089be83-3516-4113-aa00-7002ce5acba8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0089be83-3516-4113-aa00-7002ce5acba8",
+        "CreatedTime": "2023-02-01 11:43:12.818000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:48:13.279000-05:00",
+        "Name": "Sales Analysis 2 NMAA",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "01eb7046-564f-4e80-886b-6c220dd5432b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/01eb7046-564f-4e80-886b-6c220dd5432b",
+        "CreatedTime": "2023-02-01 10:51:15.070000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:05:42.121000-05:00",
+        "Name": "Preslog 2022 Test (until 19 Dec)",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "02400411-a277-4148-abd3-2c63c43bcfb0",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/02400411-a277-4148-abd3-2c63c43bcfb0",
+        "CreatedTime": "2023-02-01 08:44:29.486000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:44:29.486000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "04bce072-0e11-4747-a701-49ced22f51ff",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/04bce072-0e11-4747-a701-49ced22f51ff",
+        "CreatedTime": "2023-02-01 09:47:47.688000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:47:47.688000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "070dacfa-26f9-4a61-b37c-dfa7c6e977d3",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/070dacfa-26f9-4a61-b37c-dfa7c6e977d3",
+        "CreatedTime": "2022-10-27 15:37:17.499000-04:00",
+        "LastUpdatedTime": "2022-12-14 10:07:08.057000-05:00",
+        "Name": "APE Dashboard - MASTER - v3 - In Progress",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "073ef7e8-958e-43a9-8466-6f6e9fe7cc45",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/073ef7e8-958e-43a9-8466-6f6e9fe7cc45",
+        "CreatedTime": "2023-01-10 14:37:58.327000-05:00",
+        "LastUpdatedTime": "2023-01-10 14:37:58.327000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "084df9c0-6a43-43b4-9cec-7d22cd50bb8b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/084df9c0-6a43-43b4-9cec-7d22cd50bb8b",
+        "CreatedTime": "2022-06-27 13:29:19.609000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.054000-05:00",
+        "Name": "APE Dashboard Infinitive - DECOMMISSIONED",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0be5a04a-2f0a-45ce-abef-342702906142",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0be5a04a-2f0a-45ce-abef-342702906142",
+        "CreatedTime": "2022-09-09 15:35:20.654000-04:00",
+        "LastUpdatedTime": "2023-01-23 14:30:25.447000-05:00",
+        "Name": "UW Director Dashboard Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0c7d18c0-38b1-4f68-b73a-612751616a87",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0c7d18c0-38b1-4f68-b73a-612751616a87",
+        "CreatedTime": "2023-01-03 13:11:59.480000-05:00",
+        "LastUpdatedTime": "2023-03-08 14:05:11.662000-05:00",
+        "Name": "Membership",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0c947f77-46c7-4d54-b3ed-fd49feb11540",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0c947f77-46c7-4d54-b3ed-fd49feb11540",
+        "CreatedTime": "2023-02-01 12:52:27.963000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:50:06.599000-05:00",
+        "Name": "Sales Saas w Interactivity",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0cbb5350-ffe6-494f-8ac6-9301f20c3285",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0cbb5350-ffe6-494f-8ac6-9301f20c3285",
+        "CreatedTime": "2023-01-31 14:50:19.077000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:50:19.077000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0cdc3f98-ac82-4c98-b08e-25d657d8986b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0cdc3f98-ac82-4c98-b08e-25d657d8986b",
+        "CreatedTime": "2023-02-01 14:40:29.404000-05:00",
+        "LastUpdatedTime": "2023-02-01 14:46:02.626000-05:00",
+        "Name": "SaaS-Sales Analysis - Dataset Swap",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "0fd234b1-86a4-4ff7-801b-263a241729f4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/0fd234b1-86a4-4ff7-801b-263a241729f4",
+        "CreatedTime": "2023-02-01 11:42:57.845000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:36:44.898000-05:00",
+        "Name": "Sales-Backup",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "107ecb26-e3e4-4b40-b2e3-5946c79366b0",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/107ecb26-e3e4-4b40-b2e3-5946c79366b0",
+        "CreatedTime": "2022-09-12 12:44:46.309000-04:00",
+        "LastUpdatedTime": "2022-09-14 13:58:22.842000-04:00",
+        "Name": "Production test 2.0 - DECOMMISSIONED",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "10adefab-c9d6-4196-937a-a2bc0d0f5185",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/10adefab-c9d6-4196-937a-a2bc0d0f5185",
+        "CreatedTime": "2022-12-21 10:11:05.515000-05:00",
+        "LastUpdatedTime": "2022-12-21 10:11:05.515000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "10c717d6-e24f-4c38-9017-51725f67835d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/10c717d6-e24f-4c38-9017-51725f67835d",
+        "CreatedTime": "2023-02-13 13:52:43.732000-05:00",
+        "LastUpdatedTime": "2023-02-13 15:58:04.960000-05:00",
+        "Name": "NewBusiness9.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "10f63d22-a1a6-4645-b565-76d5bd548bd7",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/10f63d22-a1a6-4645-b565-76d5bd548bd7",
+        "CreatedTime": "2022-06-19 13:48:26.527000-04:00",
+        "LastUpdatedTime": "2022-06-19 13:48:26.527000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "11de3a8e-42ef-4a72-858a-e1ed20bd1efa",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/11de3a8e-42ef-4a72-858a-e1ed20bd1efa",
+        "CreatedTime": "2022-10-17 14:57:45.369000-04:00",
+        "LastUpdatedTime": "2022-11-28 11:20:55.332000-05:00",
+        "Name": "APE - Vi Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "126fe123-8961-43c9-aa28-1cf6c09736e4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/126fe123-8961-43c9-aa28-1cf6c09736e4",
+        "CreatedTime": "2023-02-01 10:21:37.435000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:21:37.435000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "12f73537-fbe0-4a60-9195-52be1e3f4c3f",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/12f73537-fbe0-4a60-9195-52be1e3f4c3f",
+        "CreatedTime": "2023-02-01 10:27:43.864000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:43.864000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "13ec9710-c878-4fb0-bec4-fdd03dab9465",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/13ec9710-c878-4fb0-bec4-fdd03dab9465",
+        "CreatedTime": "2023-02-01 10:34:11.113000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:44:11.047000-05:00",
+        "Name": "Sales Analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "147e2a50-ac39-429a-9d63-33f945ddc863",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/147e2a50-ac39-429a-9d63-33f945ddc863",
+        "CreatedTime": "2022-12-14 16:31:17.687000-05:00",
+        "LastUpdatedTime": "2023-03-16 09:27:58.100000-04:00",
+        "Name": "APE_Acts_Daily_v4",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "154e2f57-a005-4752-b0ba-b8cefafca9a5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/154e2f57-a005-4752-b0ba-b8cefafca9a5",
+        "CreatedTime": "2023-02-01 10:33:56.827000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:48.302000-05:00",
+        "Name": "Sales Analysis - Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "15f780f8-3e18-419c-a289-10ce2fe70e16",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/15f780f8-3e18-419c-a289-10ce2fe70e16",
+        "CreatedTime": "2023-02-01 11:43:10.199000-05:00",
+        "LastUpdatedTime": "2023-02-01 14:45:41.906000-05:00",
+        "Name": "Sales Analysis 2",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "16808a73-6ce9-4dd1-b859-8b65f6ab3b8e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/16808a73-6ce9-4dd1-b859-8b65f6ab3b8e",
+        "CreatedTime": "2023-02-01 10:33:54.363000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:59.126000-05:00",
+        "Name": "Sales Analysis - NavyMutual",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1972acbd-cb9b-4a7f-b64b-263d7dc6c0fd",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1972acbd-cb9b-4a7f-b64b-263d7dc6c0fd",
+        "CreatedTime": "2023-01-31 12:25:27.591000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:25:27.591000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1a09d4ca-d0be-45ea-88c3-9cced3afcc99",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1a09d4ca-d0be-45ea-88c3-9cced3afcc99",
+        "CreatedTime": "2023-01-31 15:09:07.667000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:09:07.667000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1a8c1875-f635-4614-9484-4fc192a7b1dd",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1a8c1875-f635-4614-9484-4fc192a7b1dd",
+        "CreatedTime": "2023-01-17 17:04:21.496000-05:00",
+        "LastUpdatedTime": "2023-01-17 17:04:21.496000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1b670959-5b28-4fb2-93ca-f1b039af06f9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1b670959-5b28-4fb2-93ca-f1b039af06f9",
+        "CreatedTime": "2023-02-01 11:43:08.887000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:46:17.610000-05:00",
+        "Name": "Sales Analysis 2",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1b905a2d-7806-4d71-967e-158949f36b67",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1b905a2d-7806-4d71-967e-158949f36b67",
+        "CreatedTime": "2022-09-13 12:05:17.303000-04:00",
+        "LastUpdatedTime": "2023-03-30 10:49:01.022000-04:00",
+        "Name": "Production - MASTER",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1ce7749d-628a-4b7f-8113-d0f831cdc6c9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1ce7749d-628a-4b7f-8113-d0f831cdc6c9",
+        "CreatedTime": "2022-11-30 15:35:20.840000-05:00",
+        "LastUpdatedTime": "2022-12-15 09:32:19.949000-05:00",
+        "Name": "APE_Acts_Daily_Vi",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1cf1cf6f-195f-4839-a4db-dac0c5c09900",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1cf1cf6f-195f-4839-a4db-dac0c5c09900",
+        "CreatedTime": "2023-02-13 15:52:54.224000-05:00",
+        "LastUpdatedTime": "2023-02-13 15:57:49.176000-05:00",
+        "Name": "New custom SQL analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1d5fb6e8-b63b-4360-9ae8-1a94ad745916",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1d5fb6e8-b63b-4360-9ae8-1a94ad745916",
+        "CreatedTime": "2023-01-31 13:19:22.924000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:19:22.924000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1e524631-0b9b-4b9b-950a-205cef08170a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1e524631-0b9b-4b9b-950a-205cef08170a",
+        "CreatedTime": "2022-10-05 14:01:03.514000-04:00",
+        "LastUpdatedTime": "2022-10-12 09:20:49.132000-04:00",
+        "Name": "Vi_APE.v2",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1e9522fe-ab39-4916-9130-77c707486176",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1e9522fe-ab39-4916-9130-77c707486176",
+        "CreatedTime": "2023-02-01 16:21:00.121000-05:00",
+        "LastUpdatedTime": "2023-02-01 16:27:26.529000-05:00",
+        "Name": "NewBusiness9.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "1ea23dbb-faef-4842-b55a-6968350e563d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/1ea23dbb-faef-4842-b55a-6968350e563d",
+        "CreatedTime": "2022-08-22 15:27:36.660000-04:00",
+        "LastUpdatedTime": "2022-08-22 15:27:36.660000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2090da2c-49ec-4a5c-88f4-8888b0aec089",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2090da2c-49ec-4a5c-88f4-8888b0aec089",
+        "CreatedTime": "2023-01-30 13:21:13.802000-05:00",
+        "LastUpdatedTime": "2023-01-30 13:21:13.802000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "20c6c9f0-b879-4c43-9fd8-8565c81c150b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/20c6c9f0-b879-4c43-9fd8-8565c81c150b",
+        "CreatedTime": "2023-02-01 10:33:55.321000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:04:24.194000-05:00",
+        "Name": "Sales Analysis - 1st Dashboard - Test Data",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "21e7fe73-89ee-42fe-ba15-ce5e24ca170b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/21e7fe73-89ee-42fe-ba15-ce5e24ca170b",
+        "CreatedTime": "2022-06-14 15:03:02.413000-04:00",
+        "LastUpdatedTime": "2022-06-14 15:12:32.768000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2472ca66-5d75-4557-a237-c68ffebae968",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2472ca66-5d75-4557-a237-c68ffebae968",
+        "CreatedTime": "2023-01-31 15:50:25.174000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:50:25.174000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "24d2a040-23ff-4ff2-a33d-8f8fae1c8c65",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/24d2a040-23ff-4ff2-a33d-8f8fae1c8c65",
+        "CreatedTime": "2022-08-24 13:43:54.257000-04:00",
+        "LastUpdatedTime": "2023-03-06 15:42:38.933000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "DELETED"
+    },
+    {
+        "AnalysisId": "27642574-08cd-4e3e-959e-ade172c5d6d9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/27642574-08cd-4e3e-959e-ade172c5d6d9",
+        "CreatedTime": "2022-10-18 12:30:44.933000-04:00",
+        "LastUpdatedTime": "2022-10-18 12:30:44.933000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "296e1ce1-38eb-492d-afdd-af53004def17",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/296e1ce1-38eb-492d-afdd-af53004def17",
+        "CreatedTime": "2023-02-01 16:51:54.341000-05:00",
+        "LastUpdatedTime": "2023-02-01 16:51:54.341000-05:00",
+        "Name": "Power BI 2-1-2023.xlsx analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2ccb2f30-3e0e-44ac-9203-1642dcc27b8c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2ccb2f30-3e0e-44ac-9203-1642dcc27b8c",
+        "CreatedTime": "2023-01-31 14:50:19.145000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:50:19.145000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2d46d904-023e-4e57-971c-cce4280ee9f7",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2d46d904-023e-4e57-971c-cce4280ee9f7",
+        "CreatedTime": "2023-02-01 14:49:13.247000-05:00",
+        "LastUpdatedTime": "2023-02-01 15:03:55.771000-05:00",
+        "Name": "SaaS-Sales analysis - Advanced Calculations",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2dcd95f5-adf6-4319-ab66-4203479d0270",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2dcd95f5-adf6-4319-ab66-4203479d0270",
+        "CreatedTime": "2023-01-31 09:48:44.315000-05:00",
+        "LastUpdatedTime": "2023-01-31 09:48:44.315000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "2e672974-22b6-41d8-82ca-f407611a8c45",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/2e672974-22b6-41d8-82ca-f407611a8c45",
+        "CreatedTime": "2022-06-29 09:44:44.549000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06-05:00",
+        "Name": "Finance/Accounting - MASTER",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3006ff7f-43e2-4215-be67-7ae07afd7589",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3006ff7f-43e2-4215-be67-7ae07afd7589",
+        "CreatedTime": "2023-02-01 11:43:20.566000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:47:35.337000-05:00",
+        "Name": "Sales Analysis 2 - NavyMutual",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3055abbe-aa61-4c6a-a792-a2c37d7124d4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3055abbe-aa61-4c6a-a792-a2c37d7124d4",
+        "CreatedTime": "2022-08-24 13:43:55.107000-04:00",
+        "LastUpdatedTime": "2023-03-06 15:42:28.949000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "DELETED"
+    },
+    {
+        "AnalysisId": "31e0ff4d-ff0c-4620-9a4b-284e5036746a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/31e0ff4d-ff0c-4620-9a4b-284e5036746a",
+        "CreatedTime": "2023-01-31 14:19:35.823000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:19:35.823000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "34424a44-91f1-4e50-b9f7-d3345be2fb44",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/34424a44-91f1-4e50-b9f7-d3345be2fb44",
+        "CreatedTime": "2023-02-01 10:27:43.712000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:43.712000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "34a8b367-389d-44c8-8342-69ea2f40a8ad",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/34a8b367-389d-44c8-8342-69ea2f40a8ad",
+        "CreatedTime": "2023-02-01 10:27:43.854000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:43.854000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "357d6b39-bc95-418f-892f-1ff1a6da9bdf",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/357d6b39-bc95-418f-892f-1ff1a6da9bdf",
+        "CreatedTime": "2022-12-16 11:02:20.991000-05:00",
+        "LastUpdatedTime": "2022-12-16 11:02:20.991000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "36e33330-fe02-422c-b0c3-31126fce01fe",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/36e33330-fe02-422c-b0c3-31126fce01fe",
+        "CreatedTime": "2023-02-01 10:31:36.545000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:31:36.545000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "39d19ace-40e0-49f8-bb34-9c9590d716bf",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/39d19ace-40e0-49f8-bb34-9c9590d716bf",
+        "CreatedTime": "2022-06-14 13:47:12.402000-04:00",
+        "LastUpdatedTime": "2022-06-14 13:47:12.402000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3a45707e-8a04-4d38-87b0-46379142f7ce",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3a45707e-8a04-4d38-87b0-46379142f7ce",
+        "CreatedTime": "2023-01-31 13:09:03.285000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:09:03.285000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3e9dc371-fde7-4d09-9d70-0b6bca1b9a93",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3e9dc371-fde7-4d09-9d70-0b6bca1b9a93",
+        "CreatedTime": "2023-02-01 10:33:59.881000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:42:51.407000-05:00",
+        "Name": "salesanalysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3f377f10-1db7-4dd3-9e91-b3e415613dcb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3f377f10-1db7-4dd3-9e91-b3e415613dcb",
+        "CreatedTime": "2023-01-31 15:09:07.496000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:09:07.496000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "3f8a49eb-4e5d-410d-b9d0-840b6e536096",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/3f8a49eb-4e5d-410d-b9d0-840b6e536096",
+        "CreatedTime": "2022-12-16 11:02:21.030000-05:00",
+        "LastUpdatedTime": "2022-12-16 11:02:21.030000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "40bfcf45-4484-4560-9a82-8bd466db2134",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/40bfcf45-4484-4560-9a82-8bd466db2134",
+        "CreatedTime": "2022-10-12 11:49:14.935000-04:00",
+        "LastUpdatedTime": "2022-10-17 15:07:07.180000-04:00",
+        "Name": "NMAA Industry - Vi Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "414b9673-e6a5-4ba1-8a5c-a90eb5ba1b00",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/414b9673-e6a5-4ba1-8a5c-a90eb5ba1b00",
+        "CreatedTime": "2023-01-20 14:22:28.295000-05:00",
+        "LastUpdatedTime": "2023-01-20 14:22:28.295000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4189c343-ba20-48aa-bbf5-4d973da1ba7e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4189c343-ba20-48aa-bbf5-4d973da1ba7e",
+        "CreatedTime": "2023-01-31 16:03:29.371000-05:00",
+        "LastUpdatedTime": "2023-01-31 16:03:42.298000-05:00",
+        "Name": "Q - SaaS Sales analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "41ed3787-2644-424d-8c49-b8a2de8886bf",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/41ed3787-2644-424d-8c49-b8a2de8886bf",
+        "CreatedTime": "2023-02-01 08:41:54.164000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:41:54.164000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "42037159-79a9-47df-ba8e-4a15fa5c4d0c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/42037159-79a9-47df-ba8e-4a15fa5c4d0c",
+        "CreatedTime": "2022-09-06 09:16:20.077000-04:00",
+        "LastUpdatedTime": "2022-09-06 09:16:20.077000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "420e4f20-92fa-4fc7-bc03-22dc053fdd44",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/420e4f20-92fa-4fc7-bc03-22dc053fdd44",
+        "CreatedTime": "2023-01-30 13:21:13.616000-05:00",
+        "LastUpdatedTime": "2023-01-30 13:21:13.616000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "435442a0-91d5-40eb-8475-1e4b47e42405",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/435442a0-91d5-40eb-8475-1e4b47e42405",
+        "CreatedTime": "2023-01-31 15:50:25.378000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:50:25.378000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "43cc3a64-a11d-4a88-b3f6-593b870b5aa8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/43cc3a64-a11d-4a88-b3f6-593b870b5aa8",
+        "CreatedTime": "2023-01-10 14:37:58.351000-05:00",
+        "LastUpdatedTime": "2023-01-10 14:37:58.351000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4442662e-9bd7-4119-89b0-2271f8110098",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4442662e-9bd7-4119-89b0-2271f8110098",
+        "CreatedTime": "2023-02-01 10:26:09.820000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:00:03.180000-05:00",
+        "Name": "SaaS-Sales Analysis - Build your first Dashboard",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "45c5c321-19ae-4961-9d7e-a406e530e190",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/45c5c321-19ae-4961-9d7e-a406e530e190",
+        "CreatedTime": "2023-01-31 15:50:25.383000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:50:25.383000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "46a2086b-b7d9-4963-a881-7f0c9724eebb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/46a2086b-b7d9-4963-a881-7f0c9724eebb",
+        "CreatedTime": "2022-11-15 10:04:29.449000-05:00",
+        "LastUpdatedTime": "2022-11-15 10:04:29.449000-05:00",
+        "Name": "country analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "46c7cacc-1161-4e42-a742-7c90282fc74a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/46c7cacc-1161-4e42-a742-7c90282fc74a",
+        "CreatedTime": "2023-01-31 13:09:05.445000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:09:05.445000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "473f1e50-3874-43eb-9e85-ccec65c9fc7d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/473f1e50-3874-43eb-9e85-ccec65c9fc7d",
+        "CreatedTime": "2023-01-10 14:37:58.390000-05:00",
+        "LastUpdatedTime": "2023-01-10 14:37:58.390000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "47cc6594-a0b1-4601-a946-7d5331bea56c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/47cc6594-a0b1-4601-a946-7d5331bea56c",
+        "CreatedTime": "2023-02-09 15:00:10.312000-05:00",
+        "LastUpdatedTime": "2023-02-09 15:19:45.293000-05:00",
+        "Name": "NewBusiness9.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4909fa78-167b-4aec-906b-968eac83acf5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4909fa78-167b-4aec-906b-968eac83acf5",
+        "CreatedTime": "2023-02-07 09:01:16.868000-05:00",
+        "LastUpdatedTime": "2023-02-07 13:04:47.193000-05:00",
+        "Name": "Media Alpha .csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4adc0562-a82a-4c09-a55b-11abecaf26ed",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4adc0562-a82a-4c09-a55b-11abecaf26ed",
+        "CreatedTime": "2023-02-01 09:49:20.480000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:49:20.480000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4c4d2444-1dba-4e56-9a8d-3b523b8f47ba",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4c4d2444-1dba-4e56-9a8d-3b523b8f47ba",
+        "CreatedTime": "2023-01-05 12:38:20.422000-05:00",
+        "LastUpdatedTime": "2023-02-22 09:00:52.091000-05:00",
+        "Name": "Sales Manager",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4dad5862-f35b-4bd8-99b0-0ad3e7d32ecd",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4dad5862-f35b-4bd8-99b0-0ad3e7d32ecd",
+        "CreatedTime": "2023-01-30 13:21:13.870000-05:00",
+        "LastUpdatedTime": "2023-01-30 13:21:13.870000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4debe6df-1068-4dc7-a6a5-9f528077247a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4debe6df-1068-4dc7-a6a5-9f528077247a",
+        "CreatedTime": "2022-08-24 13:43:54.373000-04:00",
+        "LastUpdatedTime": "2023-03-06 15:42:35.396000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "DELETED"
+    },
+    {
+        "AnalysisId": "4df20545-d47e-4901-b66f-29e186358710",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4df20545-d47e-4901-b66f-29e186358710",
+        "CreatedTime": "2022-10-03 13:09:09.254000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.039000-05:00",
+        "Name": "APE Dashboard - DECOMMISSIONED",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4e4a65e0-c7d7-4424-97cd-62770522d9b5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4e4a65e0-c7d7-4424-97cd-62770522d9b5",
+        "CreatedTime": "2023-01-31 12:25:27.447000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:25:27.447000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4ec8dd88-e075-48cf-99a9-db88588f768b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4ec8dd88-e075-48cf-99a9-db88588f768b",
+        "CreatedTime": "2022-06-20 14:21:27.385000-04:00",
+        "LastUpdatedTime": "2023-02-07 11:42:14.238000-05:00",
+        "Name": "Membership Dashboard - MASTER",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "4f447564-01b6-43cd-801d-5a797722bf29",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/4f447564-01b6-43cd-801d-5a797722bf29",
+        "CreatedTime": "2023-02-01 11:43:13.755000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:30:49.845000-05:00",
+        "Name": "Sales Analysis II NMAA",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "507721f1-d27c-43d9-82b6-cc0ceedf3348",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/507721f1-d27c-43d9-82b6-cc0ceedf3348",
+        "CreatedTime": "2022-12-05 13:19:22.761000-05:00",
+        "LastUpdatedTime": "2022-12-08 00:20:29.059000-05:00",
+        "Name": "Membership - ADAM",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "50ac904e-c484-4c2d-b7d0-6012d752ebb2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/50ac904e-c484-4c2d-b7d0-6012d752ebb2",
+        "CreatedTime": "2023-01-31 13:35:05.731000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:35:05.731000-05:00",
+        "Name": "SaaS-Sales.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "51774ba8-1b59-4e69-96c2-6a85147b579a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/51774ba8-1b59-4e69-96c2-6a85147b579a",
+        "CreatedTime": "2023-01-10 14:37:58.463000-05:00",
+        "LastUpdatedTime": "2023-01-10 14:37:58.463000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "53ccab88-85f8-4fe9-8a8e-de39e8370667",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/53ccab88-85f8-4fe9-8a8e-de39e8370667",
+        "CreatedTime": "2023-02-01 08:41:54.265000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:41:54.265000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "543d00f6-07d2-45d0-9ae9-7dfc792c94ae",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/543d00f6-07d2-45d0-9ae9-7dfc792c94ae",
+        "CreatedTime": "2022-06-19 13:48:26.601000-04:00",
+        "LastUpdatedTime": "2022-06-19 13:48:26.601000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5500a924-112c-4db4-898f-b5d36a5fa979",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5500a924-112c-4db4-898f-b5d36a5fa979",
+        "CreatedTime": "2022-06-14 13:47:12.245000-04:00",
+        "LastUpdatedTime": "2022-06-14 13:47:12.245000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "555a470c-c265-420d-a99f-7da220055333",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/555a470c-c265-420d-a99f-7da220055333",
+        "CreatedTime": "2023-02-09 13:23:02.636000-05:00",
+        "LastUpdatedTime": "2023-02-09 13:33:01.363000-05:00",
+        "Name": "2021 Schedule analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5663d2a3-35e7-4a0d-a1b3-7fef8ff95249",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5663d2a3-35e7-4a0d-a1b3-7fef8ff95249",
+        "CreatedTime": "2023-01-31 12:24:20.897000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:24:20.897000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "571f8724-ee7a-4959-97e4-f45a405b8db4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/571f8724-ee7a-4959-97e4-f45a405b8db4",
+        "CreatedTime": "2023-02-13 15:27:30.650000-05:00",
+        "LastUpdatedTime": "2023-02-13 15:29:07.865000-05:00",
+        "Name": "New custom SQL analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "57bf7a90-11d0-44de-9eee-4ce4d682f436",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/57bf7a90-11d0-44de-9eee-4ce4d682f436",
+        "CreatedTime": "2023-02-01 09:49:20.544000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:49:20.544000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "597e9ce7-50ca-4eae-b7ea-99bbedee2bfb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/597e9ce7-50ca-4eae-b7ea-99bbedee2bfb",
+        "CreatedTime": "2022-08-22 15:27:36.823000-04:00",
+        "LastUpdatedTime": "2022-08-22 15:27:36.823000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "59f14438-fa7c-4ec6-8787-0334d332cfeb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/59f14438-fa7c-4ec6-8787-0334d332cfeb",
+        "CreatedTime": "2023-02-01 11:43:29.637000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:54:14.906000-05:00",
+        "Name": "sales rick",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5a7d681e-9e01-4a21-9b2e-3b5c3f1c0434",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5a7d681e-9e01-4a21-9b2e-3b5c3f1c0434",
+        "CreatedTime": "2023-02-01 16:17:48.556000-05:00",
+        "LastUpdatedTime": "2023-02-01 16:17:58.394000-05:00",
+        "Name": "NewBusiness8.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5adf5aaa-88a2-43b6-9278-dc5566382a06",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5adf5aaa-88a2-43b6-9278-dc5566382a06",
+        "CreatedTime": "2022-09-13 13:36:34.765000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.024000-05:00",
+        "Name": "Leads Volume Demand Tracking Dashboard - Final",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5cb5501d-093b-4a15-bb16-44e58cf5e38a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5cb5501d-093b-4a15-bb16-44e58cf5e38a",
+        "CreatedTime": "2022-12-07 14:08:28.987000-05:00",
+        "LastUpdatedTime": "2022-12-09 17:59:08.582000-05:00",
+        "Name": "APE_Act_Daily_v2 - DURBIN",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5df7b939-2c6e-4515-891a-c13357fc5de3",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5df7b939-2c6e-4515-891a-c13357fc5de3",
+        "CreatedTime": "2023-01-17 17:04:21.149000-05:00",
+        "LastUpdatedTime": "2023-01-17 17:04:21.149000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "5f4c7d1d-8825-4268-addd-aefe0eca0a72",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/5f4c7d1d-8825-4268-addd-aefe0eca0a72",
+        "CreatedTime": "2023-02-06 09:23:27.281000-05:00",
+        "LastUpdatedTime": "2023-02-06 09:23:27.281000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "632c45a4-f23a-4afb-9578-ed193dd89c38",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/632c45a4-f23a-4afb-9578-ed193dd89c38",
+        "CreatedTime": "2023-02-01 10:31:36.623000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:31:36.623000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6383b32b-5509-4628-ac86-ff3d819b957e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6383b32b-5509-4628-ac86-ff3d819b957e",
+        "CreatedTime": "2022-06-20 09:54:47.990000-04:00",
+        "LastUpdatedTime": "2022-06-20 09:56:04.537000-04:00",
+        "Name": "NM - Membership Data analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "63d61c14-ff91-4cc3-8787-da72ef051265",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/63d61c14-ff91-4cc3-8787-da72ef051265",
+        "CreatedTime": "2023-02-06 09:23:27.276000-05:00",
+        "LastUpdatedTime": "2023-02-06 09:23:27.276000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "64fbe115-8532-4aa5-a665-30098aaf60b4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/64fbe115-8532-4aa5-a665-30098aaf60b4",
+        "CreatedTime": "2023-01-31 13:19:22.952000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:19:22.952000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6621aa7a-2be4-4ea9-a01f-2db9e0ffbe64",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6621aa7a-2be4-4ea9-a01f-2db9e0ffbe64",
+        "CreatedTime": "2023-01-20 14:22:28.255000-05:00",
+        "LastUpdatedTime": "2023-01-20 14:22:28.255000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "68573bbe-7983-419a-b40a-3941b27280c5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/68573bbe-7983-419a-b40a-3941b27280c5",
+        "CreatedTime": "2022-09-06 09:16:20.151000-04:00",
+        "LastUpdatedTime": "2022-09-06 09:16:20.151000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6911637f-d4cf-40c8-878e-062ed1022cd3",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6911637f-d4cf-40c8-878e-062ed1022cd3",
+        "CreatedTime": "2023-01-31 12:25:27.572000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:25:27.572000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "69e15054-dbb1-4f99-a78c-1d1de51042c1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/69e15054-dbb1-4f99-a78c-1d1de51042c1",
+        "CreatedTime": "2023-01-31 13:07:20.218000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:07:20.218000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6d881f1f-f36b-48c2-8d1c-0e47dff43811",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6d881f1f-f36b-48c2-8d1c-0e47dff43811",
+        "CreatedTime": "2023-02-01 11:43:11.753000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:47:52.155000-05:00",
+        "Name": "Sales Analysis 2 NavyMutual",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6e265c02-15bd-4b83-945a-1259630ad6b2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6e265c02-15bd-4b83-945a-1259630ad6b2",
+        "CreatedTime": "2023-02-01 08:44:29.534000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:44:29.534000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "6f589d4e-9487-4065-922c-0c262775b867",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/6f589d4e-9487-4065-922c-0c262775b867",
+        "CreatedTime": "2023-01-31 12:25:27.335000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:25:27.335000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "710ea253-be9c-4ce0-80e4-302a08468f33",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/710ea253-be9c-4ce0-80e4-302a08468f33",
+        "CreatedTime": "2023-01-30 12:05:23.289000-05:00",
+        "LastUpdatedTime": "2023-01-30 12:05:23.289000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "721fe47e-e1b8-465d-b503-cf7f001b965b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/721fe47e-e1b8-465d-b503-cf7f001b965b",
+        "CreatedTime": "2023-02-01 09:32:53.213000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:32:53.213000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "73b84335-cdda-47c4-9d44-c3f200d526d4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/73b84335-cdda-47c4-9d44-c3f200d526d4",
+        "CreatedTime": "2022-08-22 15:27:36.419000-04:00",
+        "LastUpdatedTime": "2022-08-22 15:27:36.419000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "755d0a98-7937-4f98-9e1d-db751069aa3e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/755d0a98-7937-4f98-9e1d-db751069aa3e",
+        "CreatedTime": "2022-07-19 12:22:03.692000-04:00",
+        "LastUpdatedTime": "2022-07-20 14:49:24.744000-04:00",
+        "Name": "Customer Service",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "76201691-c8f8-44dd-9c80-0d7b3ac93f6b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/76201691-c8f8-44dd-9c80-0d7b3ac93f6b",
+        "CreatedTime": "2023-02-01 08:41:54.195000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:41:54.195000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7682307b-c2e6-4b36-8777-1c8bb7152aa9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7682307b-c2e6-4b36-8777-1c8bb7152aa9",
+        "CreatedTime": "2022-09-13 11:18:09.842000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:05.992000-05:00",
+        "Name": "Lead Attribution Dashboard - Vitest",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "79665694-6601-40aa-af30-12fad7aa6802",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/79665694-6601-40aa-af30-12fad7aa6802",
+        "CreatedTime": "2023-02-01 09:47:47.770000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:47:47.770000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7a9cc014-e4eb-478c-a794-9d1a7be30b9e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7a9cc014-e4eb-478c-a794-9d1a7be30b9e",
+        "CreatedTime": "2023-02-01 11:42:59.209000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:43:15.067000-05:00",
+        "Name": "sales rick",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7aa604e6-9087-4139-8b8d-e81fca40f541",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7aa604e6-9087-4139-8b8d-e81fca40f541",
+        "CreatedTime": "2023-01-20 14:22:28.234000-05:00",
+        "LastUpdatedTime": "2023-01-20 14:22:28.234000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7cf94f3b-87c0-4f84-ac2f-88e7827a2e9c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7cf94f3b-87c0-4f84-ac2f-88e7827a2e9c",
+        "CreatedTime": "2023-02-01 10:21:37.359000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:21:37.359000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7d7be2c9-79d8-4690-80af-e5dcd80e25dd",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7d7be2c9-79d8-4690-80af-e5dcd80e25dd",
+        "CreatedTime": "2023-02-01 10:34:14.192000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:01.297000-05:00",
+        "Name": "Sales Analysis - Sue NMAA",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7e8bbe4c-9d27-4b9e-ad73-e87357e99fa5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7e8bbe4c-9d27-4b9e-ad73-e87357e99fa5",
+        "CreatedTime": "2022-12-21 10:11:06.784000-05:00",
+        "LastUpdatedTime": "2022-12-21 10:11:06.784000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "7f2454da-64e8-4cbd-9c74-63875f684b4e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/7f2454da-64e8-4cbd-9c74-63875f684b4e",
+        "CreatedTime": "2023-01-31 13:07:20.077000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:07:20.077000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "82764a90-686b-4970-9578-27cbec7ea4df",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/82764a90-686b-4970-9578-27cbec7ea4df",
+        "CreatedTime": "2022-08-22 15:27:36.548000-04:00",
+        "LastUpdatedTime": "2022-08-22 15:27:36.548000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8294a096-c0e6-4374-b36b-645aa5c05b34",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8294a096-c0e6-4374-b36b-645aa5c05b34",
+        "CreatedTime": "2023-01-31 14:19:36.019000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:19:36.019000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "82e1ec2a-85f8-452c-a526-6759d8d3e2ff",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/82e1ec2a-85f8-452c-a526-6759d8d3e2ff",
+        "CreatedTime": "2023-01-10 13:30:47.041000-05:00",
+        "LastUpdatedTime": "2023-02-16 09:45:09.928000-05:00",
+        "Name": "New Business Manager",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "82f596fe-ae75-4e90-88c0-d3ea57533872",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/82f596fe-ae75-4e90-88c0-d3ea57533872",
+        "CreatedTime": "2023-01-31 09:48:44.318000-05:00",
+        "LastUpdatedTime": "2023-01-31 09:48:44.318000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "83f757bd-8825-4bc5-9b0f-d1e0dc5d8cf4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/83f757bd-8825-4bc5-9b0f-d1e0dc5d8cf4",
+        "CreatedTime": "2022-11-15 09:58:25.151000-05:00",
+        "LastUpdatedTime": "2022-11-15 10:03:37.603000-05:00",
+        "Name": "Membership Datasource",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "843725c9-b2d2-46ea-8541-21313e9d39e8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/843725c9-b2d2-46ea-8541-21313e9d39e8",
+        "CreatedTime": "2023-02-01 08:41:54.195000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:41:54.195000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "847fb1a8-ab87-44a8-8ee1-6c14c9a31ac5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/847fb1a8-ab87-44a8-8ee1-6c14c9a31ac5",
+        "CreatedTime": "2022-09-13 14:21:49.403000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.009000-05:00",
+        "Name": "New Business Admin Metrics - Durbin Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "853fad49-bfea-4514-96a8-db64f97e1765",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/853fad49-bfea-4514-96a8-db64f97e1765",
+        "CreatedTime": "2023-01-31 15:09:07.852000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:09:07.852000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8574e7ff-6483-4abb-a5df-860a2357bad2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8574e7ff-6483-4abb-a5df-860a2357bad2",
+        "CreatedTime": "2022-06-14 13:47:12.279000-04:00",
+        "LastUpdatedTime": "2022-06-14 13:47:12.279000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "85cecbb0-1c13-4f44-99c4-2be19c040ce6",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/85cecbb0-1c13-4f44-99c4-2be19c040ce6",
+        "CreatedTime": "2023-01-31 12:26:12.674000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:26:12.674000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "85e34c38-e6a6-49ad-9e22-7a1d1ad6d3cb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/85e34c38-e6a6-49ad-9e22-7a1d1ad6d3cb",
+        "CreatedTime": "2022-06-19 13:48:26.589000-04:00",
+        "LastUpdatedTime": "2022-06-19 13:48:26.589000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "884417c7-e989-4e99-be18-bfd3fcdb9e9e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/884417c7-e989-4e99-be18-bfd3fcdb9e9e",
+        "CreatedTime": "2023-01-31 12:26:12.510000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:26:12.510000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "888458f6-4b63-4db9-8d3c-df29f64e9972",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/888458f6-4b63-4db9-8d3c-df29f64e9972",
+        "CreatedTime": "2023-01-31 14:50:19.071000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:50:19.071000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8947de20-952f-4c7b-bee4-5fdc2acf11d2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8947de20-952f-4c7b-bee4-5fdc2acf11d2",
+        "CreatedTime": "2023-01-30 12:05:23.172000-05:00",
+        "LastUpdatedTime": "2023-01-30 12:05:23.172000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8996e115-8467-496a-ab17-e4204218e9a8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8996e115-8467-496a-ab17-e4204218e9a8",
+        "CreatedTime": "2022-12-21 12:31:34.614000-05:00",
+        "LastUpdatedTime": "2022-12-21 12:40:36.065000-05:00",
+        "Name": "ape-current1214-1219.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8be7fe20-5ff3-4096-8e76-6a48bfdcc64a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8be7fe20-5ff3-4096-8e76-6a48bfdcc64a",
+        "CreatedTime": "2023-02-01 10:33:56.709000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:36:11.902000-05:00",
+        "Name": "Navy Mutual Analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8be86206-a143-423a-b21c-7f45f483da2c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8be86206-a143-423a-b21c-7f45f483da2c",
+        "CreatedTime": "2022-10-12 15:02:45.271000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.019000-05:00",
+        "Name": "APE Industry Benchmarking - v1 SWD",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "8d27a3f9-d499-4aed-b0e2-09ba7c408428",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/8d27a3f9-d499-4aed-b0e2-09ba7c408428",
+        "CreatedTime": "2023-01-31 12:24:20.918000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:24:20.918000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "90647612-7e9f-4946-9179-7aab8120cd7b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/90647612-7e9f-4946-9179-7aab8120cd7b",
+        "CreatedTime": "2023-01-11 10:25:08.370000-05:00",
+        "LastUpdatedTime": "2023-01-18 16:27:20.264000-05:00",
+        "Name": "ape_acts_agent_daily_DETAIL analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9277da08-dc90-45ba-b9cd-b27aa39853b4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9277da08-dc90-45ba-b9cd-b27aa39853b4",
+        "CreatedTime": "2023-01-31 14:19:35.961000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:19:35.961000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9433d154-9414-459d-bf94-cf43269bad7b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9433d154-9414-459d-bf94-cf43269bad7b",
+        "CreatedTime": "2023-01-31 09:48:44.355000-05:00",
+        "LastUpdatedTime": "2023-01-31 09:48:44.355000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "95f28bf3-7701-4a79-a902-7b0922f372eb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/95f28bf3-7701-4a79-a902-7b0922f372eb",
+        "CreatedTime": "2023-01-31 13:19:23.120000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:19:23.120000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "964faccc-fac6-46db-88d6-a4367e40733b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/964faccc-fac6-46db-88d6-a4367e40733b",
+        "CreatedTime": "2022-06-19 13:48:26.562000-04:00",
+        "LastUpdatedTime": "2022-06-19 13:48:26.562000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "982d34fe-9730-4655-b5d5-23f6d6d0a81a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/982d34fe-9730-4655-b5d5-23f6d6d0a81a",
+        "CreatedTime": "2023-01-30 12:05:22.967000-05:00",
+        "LastUpdatedTime": "2023-01-30 12:05:22.967000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9a4331c0-299d-4ddd-ad4d-2c6cb6274d88",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9a4331c0-299d-4ddd-ad4d-2c6cb6274d88",
+        "CreatedTime": "2023-03-17 14:34:41.530000-04:00",
+        "LastUpdatedTime": "2023-03-17 14:34:41.530000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9c893f37-0694-4491-a9da-5a152ac10b1b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9c893f37-0694-4491-a9da-5a152ac10b1b",
+        "CreatedTime": "2023-02-06 09:23:27.267000-05:00",
+        "LastUpdatedTime": "2023-02-06 09:23:27.267000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9f1af859-82a8-4f0c-afd2-394dcc1ee6d5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9f1af859-82a8-4f0c-afd2-394dcc1ee6d5",
+        "CreatedTime": "2023-02-01 10:37:35.455000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:01.560000-05:00",
+        "Name": "AnalysisWorkshop.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "9f927582-147d-4fdb-ae1e-2a6e4d334706",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/9f927582-147d-4fdb-ae1e-2a6e4d334706",
+        "CreatedTime": "2023-01-31 12:26:12.648000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:26:12.648000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a0b8519f-3d2f-441d-9873-dc0bb369fb92",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a0b8519f-3d2f-441d-9873-dc0bb369fb92",
+        "CreatedTime": "2023-02-01 11:09:51.473000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:35:49.245000-05:00",
+        "Name": "Sales-Saas Enhance your Dashboard",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a1c3646c-078b-42ea-9c67-ad8bb66a2ef9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a1c3646c-078b-42ea-9c67-ad8bb66a2ef9",
+        "CreatedTime": "2023-02-01 09:49:20.416000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:49:20.416000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a2bc3e8e-88aa-4f72-b50e-4909d8c4ff22",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a2bc3e8e-88aa-4f72-b50e-4909d8c4ff22",
+        "CreatedTime": "2022-12-21 10:11:05.723000-05:00",
+        "LastUpdatedTime": "2022-12-21 10:11:05.723000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a2d102a8-d8ba-42c5-843f-429beb5553ce",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a2d102a8-d8ba-42c5-843f-429beb5553ce",
+        "CreatedTime": "2023-02-01 10:38:42.699000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:40:36.809000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a4600fa1-5fd2-49ff-810f-339363eafcf9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a4600fa1-5fd2-49ff-810f-339363eafcf9",
+        "CreatedTime": "2023-02-02 15:27:20.234000-05:00",
+        "LastUpdatedTime": "2023-02-06 15:33:45.705000-05:00",
+        "Name": "ape_acts_agent_daily_DETAIL analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a4c0140f-b6c6-4a33-985b-0cfa14ed5560",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a4c0140f-b6c6-4a33-985b-0cfa14ed5560",
+        "CreatedTime": "2023-02-01 10:21:37.411000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:21:37.411000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a5de47a8-33d5-449a-95f6-379374109a84",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a5de47a8-33d5-449a-95f6-379374109a84",
+        "CreatedTime": "2023-02-01 08:44:29.499000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:44:29.499000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a642bbde-542a-4f4f-a9fe-5ef857b536d5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a642bbde-542a-4f4f-a9fe-5ef857b536d5",
+        "CreatedTime": "2023-02-01 10:27:43.990000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:43.990000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "a906e272-4017-4746-bc08-0e95f183ffc2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/a906e272-4017-4746-bc08-0e95f183ffc2",
+        "CreatedTime": "2023-02-01 10:27:39.343000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:39.343000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "aeda608b-66d4-433e-81b2-0940ca148137",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/aeda608b-66d4-433e-81b2-0940ca148137",
+        "CreatedTime": "2023-01-31 14:50:19.110000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:50:19.110000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "afacd9c1-f36d-456d-a773-f20bd9627e44",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/afacd9c1-f36d-456d-a773-f20bd9627e44",
+        "CreatedTime": "2022-10-20 14:57:19.447000-04:00",
+        "LastUpdatedTime": "2022-12-09 17:46:40.066000-05:00",
+        "Name": "APE Dashboard v2 - DECOMMISSIONED",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b0f1485e-65bd-4c76-8b36-aff2ffe9de28",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b0f1485e-65bd-4c76-8b36-aff2ffe9de28",
+        "CreatedTime": "2022-10-17 13:58:42.369000-04:00",
+        "LastUpdatedTime": "2022-10-17 16:50:05.727000-04:00",
+        "Name": "APE Industry Benchmarking - v2",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b2683333-1027-4ebe-a1dd-107b1827499b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b2683333-1027-4ebe-a1dd-107b1827499b",
+        "CreatedTime": "2023-02-01 10:34:01.256000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:38:08.424000-05:00",
+        "Name": "SaaS-Sales.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b29e3efc-334b-47c7-b5f2-f3bf8c878644",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b29e3efc-334b-47c7-b5f2-f3bf8c878644",
+        "CreatedTime": "2023-02-01 10:21:37.432000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:21:37.432000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b2afe29c-b8cd-49e7-818e-49b3d19b9982",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b2afe29c-b8cd-49e7-818e-49b3d19b9982",
+        "CreatedTime": "2022-09-06 09:16:20.143000-04:00",
+        "LastUpdatedTime": "2022-09-06 09:16:20.143000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b2e1d516-daa2-495a-9386-c64ed66ec00a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b2e1d516-daa2-495a-9386-c64ed66ec00a",
+        "CreatedTime": "2023-02-01 10:31:37.208000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:31:37.208000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b3c8472f-49b6-4972-a08b-c7a3613a61f1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b3c8472f-49b6-4972-a08b-c7a3613a61f1",
+        "CreatedTime": "2023-02-01 10:34:45.431000-05:00",
+        "LastUpdatedTime": "2023-02-01 15:03:55.849000-05:00",
+        "Name": "Sales Analysis - Navy Mutual",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b500559d-af6f-4698-820a-4bf71330f4b2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b500559d-af6f-4698-820a-4bf71330f4b2",
+        "CreatedTime": "2023-02-01 10:33:55.418000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:30.011000-05:00",
+        "Name": "SAS Sales Analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b61b1971-bbd1-4e8b-858f-4dcfef5fe425",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b61b1971-bbd1-4e8b-858f-4dcfef5fe425",
+        "CreatedTime": "2023-02-01 09:32:53.178000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:32:53.178000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "b88307d5-b8b4-4081-994c-5999f82100ca",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/b88307d5-b8b4-4081-994c-5999f82100ca",
+        "CreatedTime": "2023-02-01 11:43:11.431000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:09:20.167000-05:00",
+        "Name": "Sales Analysis 2 Navy Mutual",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "bb6992f0-547f-4c2d-a1ef-926894b4cda5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/bb6992f0-547f-4c2d-a1ef-926894b4cda5",
+        "CreatedTime": "2023-02-01 10:31:36.801000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:31:36.801000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "bc1ad9fe-6d5c-4ed6-9138-c05af07550cb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/bc1ad9fe-6d5c-4ed6-9138-c05af07550cb",
+        "CreatedTime": "2022-10-06 10:32:00.243000-04:00",
+        "LastUpdatedTime": "2022-10-17 11:50:50.618000-04:00",
+        "Name": "Vi_APE v4",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "bc28e7f7-d96c-45c1-a513-5cf6b88ac3ac",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/bc28e7f7-d96c-45c1-a513-5cf6b88ac3ac",
+        "CreatedTime": "2022-11-01 10:01:08.075000-04:00",
+        "LastUpdatedTime": "2022-11-01 10:10:18.280000-04:00",
+        "Name": "APE Dashboard - MASTER - v3 - IP - OCT",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "bd843a3d-3116-4283-838e-c5f6619c83e6",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/bd843a3d-3116-4283-838e-c5f6619c83e6",
+        "CreatedTime": "2023-01-31 15:50:25.320000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:50:25.320000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "bec048dd-be7e-4431-9dd8-52f6b7033400",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/bec048dd-be7e-4431-9dd8-52f6b7033400",
+        "CreatedTime": "2022-10-18 12:30:44.800000-04:00",
+        "LastUpdatedTime": "2022-10-18 12:30:44.800000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c1656342-ea24-4f69-b241-328743823130",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c1656342-ea24-4f69-b241-328743823130",
+        "CreatedTime": "2022-09-07 11:06:39.461000-04:00",
+        "LastUpdatedTime": "2022-09-07 11:06:39.461000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c371abad-d9e7-43c8-b8a9-91795d5a2c8f",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c371abad-d9e7-43c8-b8a9-91795d5a2c8f",
+        "CreatedTime": "2023-02-01 10:33:57.665000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:36:09.804000-05:00",
+        "Name": "WJ Dashboard",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c3aaca10-735d-491a-a89e-41920d5bce4f",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c3aaca10-735d-491a-a89e-41920d5bce4f",
+        "CreatedTime": "2023-02-01 11:43:11.074000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:53:32.680000-05:00",
+        "Name": "Sales Activation Overview II NM",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c3ca9d37-abe8-4085-bf87-635b52395ee8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c3ca9d37-abe8-4085-bf87-635b52395ee8",
+        "CreatedTime": "2023-01-31 12:24:20.766000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:24:20.766000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c4014193-0425-4e16-9bfe-4fd07d5f4cd8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c4014193-0425-4e16-9bfe-4fd07d5f4cd8",
+        "CreatedTime": "2022-12-16 11:02:20.978000-05:00",
+        "LastUpdatedTime": "2022-12-16 11:02:20.978000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c4094fa3-aaf8-49cd-be87-85f1e8b82508",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c4094fa3-aaf8-49cd-be87-85f1e8b82508",
+        "CreatedTime": "2023-02-01 10:28:52.060000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:28:52.060000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c5753917-8fd9-4b38-bb30-c204987a99a2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c5753917-8fd9-4b38-bb30-c204987a99a2",
+        "CreatedTime": "2022-09-13 12:05:43.264000-04:00",
+        "LastUpdatedTime": "2022-12-15 09:36:06.048000-05:00",
+        "Name": "Member Services - MASTER",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c62677a2-90d7-4b33-8bd0-f66154f3a13d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c62677a2-90d7-4b33-8bd0-f66154f3a13d",
+        "CreatedTime": "2023-01-05 14:15:17.382000-05:00",
+        "LastUpdatedTime": "2023-02-22 09:01:35.742000-05:00",
+        "Name": "UW Director",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c6286331-aa9b-451a-94cf-4fbf2a950719",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c6286331-aa9b-451a-94cf-4fbf2a950719",
+        "CreatedTime": "2022-09-07 11:06:39.358000-04:00",
+        "LastUpdatedTime": "2022-09-07 11:12:23.774000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c628c1e9-1ba5-4b5c-aac2-6de3b76332c8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c628c1e9-1ba5-4b5c-aac2-6de3b76332c8",
+        "CreatedTime": "2022-10-18 12:30:44.945000-04:00",
+        "LastUpdatedTime": "2022-10-18 12:30:44.945000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c727e946-9460-4e7b-ad40-611670181c9e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c727e946-9460-4e7b-ad40-611670181c9e",
+        "CreatedTime": "2023-02-01 11:43:09.959000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:54:33.813000-05:00",
+        "Name": "Devlin's Cool Analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "c7f7397e-8631-4638-999a-14f3b08ad31a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/c7f7397e-8631-4638-999a-14f3b08ad31a",
+        "CreatedTime": "2022-08-24 13:43:54.501000-04:00",
+        "LastUpdatedTime": "2023-03-06 15:42:32.043000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "DELETED"
+    },
+    {
+        "AnalysisId": "ca62bd70-a7a8-4a2a-860b-bbdabac2fd1f",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ca62bd70-a7a8-4a2a-860b-bbdabac2fd1f",
+        "CreatedTime": "2023-02-01 10:34:16.030000-05:00",
+        "LastUpdatedTime": "2023-02-01 13:44:59.021000-05:00",
+        "Name": "Sales test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "caa83b50-28d8-4490-9be7-388a538352aa",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/caa83b50-28d8-4490-9be7-388a538352aa",
+        "CreatedTime": "2023-02-01 10:27:39.086000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:39.086000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cb06818d-ccd8-4a9d-ace5-eef5bf227d30",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cb06818d-ccd8-4a9d-ace5-eef5bf227d30",
+        "CreatedTime": "2023-01-31 13:07:20.224000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:07:20.224000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cb62e5aa-b515-4788-8114-b9d85b577447",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cb62e5aa-b515-4788-8114-b9d85b577447",
+        "CreatedTime": "2023-02-01 15:03:25.994000-05:00",
+        "LastUpdatedTime": "2023-02-01 15:03:34.871000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cba2cc62-b69f-4e55-af59-d65caf3193f0",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cba2cc62-b69f-4e55-af59-d65caf3193f0",
+        "CreatedTime": "2023-02-07 11:51:59.474000-05:00",
+        "LastUpdatedTime": "2023-02-07 11:51:59.474000-05:00",
+        "Name": "UW Director - JSON TEST",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cbafb2f8-afdb-4117-b44b-18fbf9b0fb7a",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cbafb2f8-afdb-4117-b44b-18fbf9b0fb7a",
+        "CreatedTime": "2022-12-09 11:58:47.422000-05:00",
+        "LastUpdatedTime": "2022-12-16 13:59:56.424000-05:00",
+        "Name": "APE_Act_Daily_v3",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cc7fbbc2-813c-407c-8644-4f6efe4c98f2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cc7fbbc2-813c-407c-8644-4f6efe4c98f2",
+        "CreatedTime": "2023-02-01 10:28:52.210000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:28:52.210000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cdce0420-18c1-4610-8080-8f2077a89a98",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cdce0420-18c1-4610-8080-8f2077a89a98",
+        "CreatedTime": "2022-12-14 10:31:16.081000-05:00",
+        "LastUpdatedTime": "2022-12-14 10:32:51.447000-05:00",
+        "Name": "ape-daily-changedataset",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cf3ab0ce-b5fd-45cc-bb40-ca9dd7bba9eb",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cf3ab0ce-b5fd-45cc-bb40-ca9dd7bba9eb",
+        "CreatedTime": "2022-12-16 11:02:20.958000-05:00",
+        "LastUpdatedTime": "2022-12-16 11:02:20.958000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "cf6b75d9-3356-479f-b032-9faa359fad0d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/cf6b75d9-3356-479f-b032-9faa359fad0d",
+        "CreatedTime": "2023-02-01 09:49:20.441000-05:00",
+        "LastUpdatedTime": "2023-02-01 14:41:08.675000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d2d39774-a0c2-4189-9711-7130f3a3ff88",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d2d39774-a0c2-4189-9711-7130f3a3ff88",
+        "CreatedTime": "2022-06-14 13:47:12.510000-04:00",
+        "LastUpdatedTime": "2022-06-14 13:47:12.510000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d37e133f-2ffc-4834-a140-2c72ff761bed",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d37e133f-2ffc-4834-a140-2c72ff761bed",
+        "CreatedTime": "2023-01-31 12:24:20.919000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:24:20.919000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d3ed9c92-a047-440d-a668-6a649c136fe0",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d3ed9c92-a047-440d-a668-6a649c136fe0",
+        "CreatedTime": "2023-02-01 10:33:55.962000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:36:10.863000-05:00",
+        "Name": "Sales Analysis - NavyMutual TAS",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d53e1585-7593-41b0-ae16-0512d8377ff9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d53e1585-7593-41b0-ae16-0512d8377ff9",
+        "CreatedTime": "2023-02-01 09:32:53.350000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:32:53.350000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d57267e4-bb89-400a-9009-d0e520511822",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d57267e4-bb89-400a-9009-d0e520511822",
+        "CreatedTime": "2023-02-01 09:47:47.571000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:47:47.571000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d620b551-f38e-4a1c-a102-fbeae1edb0e6",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d620b551-f38e-4a1c-a102-fbeae1edb0e6",
+        "CreatedTime": "2023-02-10 17:38:55.577000-05:00",
+        "LastUpdatedTime": "2023-02-10 17:42:55.111000-05:00",
+        "Name": "newbusinesstest analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d69507c9-23d0-4aca-9321-81ec96f760c1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d69507c9-23d0-4aca-9321-81ec96f760c1",
+        "CreatedTime": "2023-02-01 09:47:47.491000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:47:47.491000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d765db59-2ea3-4ecb-8d12-5f4b234fb6ca",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d765db59-2ea3-4ecb-8d12-5f4b234fb6ca",
+        "CreatedTime": "2023-01-20 14:22:28.240000-05:00",
+        "LastUpdatedTime": "2023-01-20 14:22:28.240000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d971456c-fca4-4a56-b362-74608689d0fe",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d971456c-fca4-4a56-b362-74608689d0fe",
+        "CreatedTime": "2022-12-22 12:23:49.489000-05:00",
+        "LastUpdatedTime": "2023-01-03 09:44:04.949000-05:00",
+        "Name": "Membership Dashboard - Test 12/22",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "d9853a4c-9f36-4c10-93f9-a8ccd9844bd2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/d9853a4c-9f36-4c10-93f9-a8ccd9844bd2",
+        "CreatedTime": "2022-09-07 11:06:39.455000-04:00",
+        "LastUpdatedTime": "2022-09-07 11:06:39.455000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "dcaff7ee-1550-49a4-8001-0e01bbdb8259",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/dcaff7ee-1550-49a4-8001-0e01bbdb8259",
+        "CreatedTime": "2023-02-01 10:33:56.768000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:42:37.364000-05:00",
+        "Name": "AWS Quicksight Test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "dccfec5a-0857-4e0e-be23-12fc06a6a414",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/dccfec5a-0857-4e0e-be23-12fc06a6a414",
+        "CreatedTime": "2023-01-31 13:09:03.129000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:09:03.129000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "dda5ef53-bfc3-4f92-9af7-63005a7db644",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/dda5ef53-bfc3-4f92-9af7-63005a7db644",
+        "CreatedTime": "2023-01-31 15:09:07.701000-05:00",
+        "LastUpdatedTime": "2023-01-31 15:09:07.701000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "ddd95b4e-8ac6-4c7b-ae4c-79a8775692a3",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ddd95b4e-8ac6-4c7b-ae4c-79a8775692a3",
+        "CreatedTime": "2023-02-01 10:28:52.182000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:28:52.182000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "de4ef09f-2d38-4810-b819-80d9d16e0225",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/de4ef09f-2d38-4810-b819-80d9d16e0225",
+        "CreatedTime": "2023-02-01 10:28:28.384000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:52.289000-05:00",
+        "Name": "SaaS-Sales analysis - Build your first dashboard",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e10fdf68-4f93-4c06-acd7-48ea9ccfc1c3",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e10fdf68-4f93-4c06-acd7-48ea9ccfc1c3",
+        "CreatedTime": "2022-10-05 16:27:53.855000-04:00",
+        "LastUpdatedTime": "2022-10-12 09:20:16.570000-04:00",
+        "Name": "Vi APE v3",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e23107fc-175a-4383-8069-66fa062ff43b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e23107fc-175a-4383-8069-66fa062ff43b",
+        "CreatedTime": "2023-01-31 13:07:19.904000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:07:19.904000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e39635f3-79b9-44a7-889b-f3a89e430a42",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e39635f3-79b9-44a7-889b-f3a89e430a42",
+        "CreatedTime": "2022-06-14 15:24:27.749000-04:00",
+        "LastUpdatedTime": "2022-06-15 16:50:14.318000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e3c20ddd-4843-4863-8a5a-190d5f2ea236",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e3c20ddd-4843-4863-8a5a-190d5f2ea236",
+        "CreatedTime": "2022-10-03 10:21:13.305000-04:00",
+        "LastUpdatedTime": "2022-10-03 10:21:13.305000-04:00",
+        "Name": "ape_total_net analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e3fbeed5-147d-451c-a340-9844ff1ae6e1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e3fbeed5-147d-451c-a340-9844ff1ae6e1",
+        "CreatedTime": "2023-03-17 14:34:41.418000-04:00",
+        "LastUpdatedTime": "2023-03-17 14:34:41.418000-04:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e429b336-ffc0-48ec-9ed5-3d187b8a70b8",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e429b336-ffc0-48ec-9ed5-3d187b8a70b8",
+        "CreatedTime": "2023-01-31 09:48:44.469000-05:00",
+        "LastUpdatedTime": "2023-01-31 09:48:44.469000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e4bea139-f9fc-40a4-8696-3c0f76e2b895",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e4bea139-f9fc-40a4-8696-3c0f76e2b895",
+        "CreatedTime": "2023-03-17 14:34:41.423000-04:00",
+        "LastUpdatedTime": "2023-03-17 14:34:41.423000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e8a8b1ea-faf9-4736-b542-bab03370ccb9",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e8a8b1ea-faf9-4736-b542-bab03370ccb9",
+        "CreatedTime": "2023-01-30 13:21:13.675000-05:00",
+        "LastUpdatedTime": "2023-01-30 13:21:13.675000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e9862164-5eb2-4502-bc0d-ec3adfebec7c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e9862164-5eb2-4502-bc0d-ec3adfebec7c",
+        "CreatedTime": "2023-02-13 15:50:07.851000-05:00",
+        "LastUpdatedTime": "2023-02-13 15:50:26.531000-05:00",
+        "Name": "New custom SQL analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e98c92ec-e53d-4281-bc91-3138ed2bafaf",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e98c92ec-e53d-4281-bc91-3138ed2bafaf",
+        "CreatedTime": "2023-01-31 14:19:35.992000-05:00",
+        "LastUpdatedTime": "2023-01-31 14:19:35.992000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "e9eaf0e1-dede-4a3d-830e-b5c37cd6ffad",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/e9eaf0e1-dede-4a3d-830e-b5c37cd6ffad",
+        "CreatedTime": "2023-03-17 14:34:41.544000-04:00",
+        "LastUpdatedTime": "2023-03-17 14:34:41.544000-04:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "eb2fa5f3-fb62-492f-b31e-2e572cbc8ea6",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/eb2fa5f3-fb62-492f-b31e-2e572cbc8ea6",
+        "CreatedTime": "2023-02-01 10:27:39.220000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:39.220000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "ecd7b324-273d-47b4-b770-3d95e400715b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ecd7b324-273d-47b4-b770-3d95e400715b",
+        "CreatedTime": "2023-02-06 09:23:27.164000-05:00",
+        "LastUpdatedTime": "2023-02-06 09:23:27.164000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "ed242013-33c1-4ad8-9f96-8e3b5ee1faa1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ed242013-33c1-4ad8-9f96-8e3b5ee1faa1",
+        "CreatedTime": "2023-02-01 10:38:24.288000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:37:35.351000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "ed76ee3f-1dda-4692-8368-f20660a18d1c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ed76ee3f-1dda-4692-8368-f20660a18d1c",
+        "CreatedTime": "2023-02-01 10:41:17.916000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:41:19.583000-05:00",
+        "Name": "Sales Pipeline analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "edce0eeb-4d9e-4d49-86a3-351cde482ab6",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/edce0eeb-4d9e-4d49-86a3-351cde482ab6",
+        "CreatedTime": "2023-02-09 13:35:34.582000-05:00",
+        "LastUpdatedTime": "2023-02-09 15:28:01.200000-05:00",
+        "Name": "Combined Schedule 2018-2022 analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "efdfbda9-6a0a-434e-8eef-fe76ce36e8cc",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/efdfbda9-6a0a-434e-8eef-fe76ce36e8cc",
+        "CreatedTime": "2023-01-11 16:27:11.543000-05:00",
+        "LastUpdatedTime": "2023-01-11 16:35:23.061000-05:00",
+        "Name": "NB Business Manager - SF Case test",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f1f9fbaf-deb4-4685-8523-15b8bde7d09f",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f1f9fbaf-deb4-4685-8523-15b8bde7d09f",
+        "CreatedTime": "2023-01-17 17:04:21.065000-05:00",
+        "LastUpdatedTime": "2023-01-17 17:04:21.065000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f1fbd740-d697-44ca-a40a-df7ef1f9990c",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f1fbd740-d697-44ca-a40a-df7ef1f9990c",
+        "CreatedTime": "2023-01-31 13:19:22.931000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:19:22.931000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f33067a5-9b86-4065-b88d-8d74ec5e10be",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f33067a5-9b86-4065-b88d-8d74ec5e10be",
+        "CreatedTime": "2023-01-17 17:04:21.473000-05:00",
+        "LastUpdatedTime": "2023-01-17 17:04:21.473000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f33e2ad5-f050-4318-a0b4-cae5161655e1",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f33e2ad5-f050-4318-a0b4-cae5161655e1",
+        "CreatedTime": "2023-02-01 10:40:56.146000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:40:58.262000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f4614a96-1074-4b0f-97f8-bcb46b9e15ef",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f4614a96-1074-4b0f-97f8-bcb46b9e15ef",
+        "CreatedTime": "2022-09-07 11:06:39.362000-04:00",
+        "LastUpdatedTime": "2022-09-07 11:06:39.362000-04:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f5288c96-ec59-4949-bc4d-9b146304deb4",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f5288c96-ec59-4949-bc4d-9b146304deb4",
+        "CreatedTime": "2023-02-01 08:44:29.485000-05:00",
+        "LastUpdatedTime": "2023-02-01 08:44:29.485000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f5ff6808-c016-4230-8e65-63434a85fea7",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f5ff6808-c016-4230-8e65-63434a85fea7",
+        "CreatedTime": "2022-11-30 13:51:58.382000-05:00",
+        "LastUpdatedTime": "2022-12-07 14:54:04.178000-05:00",
+        "Name": "APE - v4 - IP - Vi",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f6665542-6f50-48e1-8f78-3a3b582bc334",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f6665542-6f50-48e1-8f78-3a3b582bc334",
+        "CreatedTime": "2023-02-01 10:36:29.754000-05:00",
+        "LastUpdatedTime": "2023-02-01 11:06:23.686000-05:00",
+        "Name": "SaaS-Sales.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f69221a6-45d5-4925-985a-72736028135b",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f69221a6-45d5-4925-985a-72736028135b",
+        "CreatedTime": "2022-10-18 12:30:44.822000-04:00",
+        "LastUpdatedTime": "2022-10-18 12:30:44.822000-04:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f75591fc-c491-4be2-b1b9-499b3fdf7384",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f75591fc-c491-4be2-b1b9-499b3fdf7384",
+        "CreatedTime": "2023-02-01 09:32:53.337000-05:00",
+        "LastUpdatedTime": "2023-02-01 09:32:53.337000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f8001c0d-a536-4cb3-aea8-90a949f39cc2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f8001c0d-a536-4cb3-aea8-90a949f39cc2",
+        "CreatedTime": "2023-02-08 16:43:52.322000-05:00",
+        "LastUpdatedTime": "2023-02-08 16:49:29.119000-05:00",
+        "Name": "NewBusiness8.csv analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f8e8cf3e-3e0e-4ae1-b08c-1362c7721a1e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f8e8cf3e-3e0e-4ae1-b08c-1362c7721a1e",
+        "CreatedTime": "2022-12-21 10:11:05.707000-05:00",
+        "LastUpdatedTime": "2022-12-21 10:11:05.707000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "f9ab35dd-ed55-4698-837d-8fa98bc1cc7e",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/f9ab35dd-ed55-4698-837d-8fa98bc1cc7e",
+        "CreatedTime": "2023-01-31 12:26:12.589000-05:00",
+        "LastUpdatedTime": "2023-01-31 12:26:12.589000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "faf9a7d8-6401-4673-9276-379ee96abd96",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/faf9a7d8-6401-4673-9276-379ee96abd96",
+        "CreatedTime": "2023-01-31 13:09:03.543000-05:00",
+        "LastUpdatedTime": "2023-01-31 13:09:03.543000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fb1d4768-2183-48da-93a8-f16670bc73a2",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fb1d4768-2183-48da-93a8-f16670bc73a2",
+        "CreatedTime": "2023-01-05 14:18:37.329000-05:00",
+        "LastUpdatedTime": "2023-02-15 14:31:42.846000-05:00",
+        "Name": "UW Director Dashboard",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fb38f5ae-02b3-4025-81f4-0a48ad60fa00",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fb38f5ae-02b3-4025-81f4-0a48ad60fa00",
+        "CreatedTime": "2023-01-30 12:05:22.882000-05:00",
+        "LastUpdatedTime": "2023-01-30 12:05:22.882000-05:00",
+        "Name": "Business Review analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fbfd723a-f11b-4dcb-a6a3-79a6c4b57a55",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fbfd723a-f11b-4dcb-a6a3-79a6c4b57a55",
+        "CreatedTime": "2023-02-01 10:28:52.121000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:28:52.121000-05:00",
+        "Name": "People Overview analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fc001f86-8438-42bd-a6ee-b78aedb2e86d",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fc001f86-8438-42bd-a6ee-b78aedb2e86d",
+        "CreatedTime": "2023-02-01 10:27:39.468000-05:00",
+        "LastUpdatedTime": "2023-02-01 10:27:39.468000-05:00",
+        "Name": "Web and Social Media Analytics analysis",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fc29bdfc-92fa-421f-bdfc-c78819ece123",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fc29bdfc-92fa-421f-bdfc-c78819ece123",
+        "CreatedTime": "2023-01-03 14:19:47.201000-05:00",
+        "LastUpdatedTime": "2023-02-20 17:03:40.706000-05:00",
+        "Name": "SUN VP",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "fd83b550-2185-4ecf-a127-e597db3895d5",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/fd83b550-2185-4ecf-a127-e597db3895d5",
+        "CreatedTime": "2023-02-01 11:43:09.485000-05:00",
+        "LastUpdatedTime": "2023-02-01 12:48:36.478000-05:00",
+        "Name": "Sales Analysis 2 NM",
+        "Status": "CREATION_SUCCESSFUL"
+    },
+    {
+        "AnalysisId": "ffd1763b-805a-49ca-b976-accc5b386d39",
+        "Arn": "arn:aws:quicksight:us-east-1:408686880651:analysis/ffd1763b-805a-49ca-b976-accc5b386d39",
+        "CreatedTime": "2023-02-01 11:43:11.107000-05:00",
+        "LastUpdatedTime": "2023-02-07 13:05:42.849000-05:00",
+        "Name": "sales analysis 2",
+        "Status": "CREATION_SUCCESSFUL"
+    }
+]
