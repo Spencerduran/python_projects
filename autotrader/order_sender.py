@@ -1,6 +1,7 @@
 import discord
 import json
 import asyncio
+import datetime
 from pynput.keyboard import Controller, Key
 
 DISCORD_TOKEN = "ODk2NDIyOTg1MTc3NjUzMzEw.GHEHKK.LjBUlyMpxp1UNnbBK87yoKviM5SSK85e02OeMI"
@@ -31,6 +32,8 @@ async def on_ready():
 @client.event
 async def on_message(message):
     if message.author.name == WEBHOOK_USERNAME and message.channel.name == CHANNEL_NAME:
+        now = datetime.datetime.now()
+        print(message.content)
         content = message.embeds[0].title.strip().lower(
         ) if message.embeds else message.content.strip().lower()
 
@@ -42,20 +45,25 @@ async def on_message(message):
 
         if "open long position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
-            print(f'Signal Bot: "Closed any open positions, Enter long"\n')
+            print(f'\n{now}: Signal Bot: "Closed any open positions, Enter long"\n')
             bot_message = "Closed any open positions, Entering long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "b"])
 
         elif "open short position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
-            print(f'Signal Bot: "Closed any open position, Entering short"\n')
+            print(f'\n{now}: Signal Bot: "Closed any open position, Entering short"\n')
             bot_message = "Closed any open positions, Entering short"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
         elif "close" in content:
-            print(f'Signal Bot: "Closed position, all out"\n')
+            print(f'\n{now}: Signal Bot: "Closed position, all out"\n')
             bot_message = "Closed position"
+            await message.channel.send(bot_message)
+            await send_key_combination([Key.alt, Key.shift, "c"])
+        elif "profit" in content:
+            print(f'\n{now}: Signal Bot: "Taking Profit, all out"\n')
+            bot_message = "Profits bagged"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
 
