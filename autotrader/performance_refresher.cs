@@ -3,6 +3,7 @@ using System.Windows.Media;
 using NinjaTrader.Cbi;
 using NinjaTrader.Gui.Tools;
 using NinjaTrader.NinjaScript;
+using NinjaTrader.Gui;
 
 namespace NinjaTrader.NinjaScript.AddOns
 {
@@ -24,11 +25,12 @@ namespace NinjaTrader.NinjaScript.AddOns
             {
                 NinjaTrader.NinjaScript.AddOns.Performance.PerformanceViewModel viewModel = null;
 
-                foreach (Tab tab in MainWindow.Tabs)
+                foreach (var window in Core.Globals.AllWindows)
                 {
-                    if (tab.Content.GetType().Name == "TradePerformance")
+                    if (window.GetType().Name == "TradePerformanceWindow")
                     {
-                        viewModel = (NinjaTrader.NinjaScript.AddOns.Performance.PerformanceViewModel)tab.DataContext;
+                        var tradePerformanceWindow = window as NinjaTrader.Gui.TradePerformance.TradePerformanceWindow;
+                        viewModel = (NinjaTrader.NinjaScript.AddOns.Performance.PerformanceViewModel)tradePerformanceWindow.DataContext;
                         break;
                     }
                 }
