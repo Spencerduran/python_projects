@@ -66,7 +66,7 @@ async def on_message(message):
         ) if message.embeds else message.content.strip().lower()
         if "open long position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
-            print(f'\n{now}: Signal Bot: "Long Entry"\n')
+            print(f'\n{now}: Signal Bot: "Long Entry on {ticker}"\n')
             bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "b"])
@@ -74,7 +74,7 @@ async def on_message(message):
         elif "open short position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
             print(
-                f'\n{now}: Signal Bot: "Short Entry"\n')
+                f'\n{now}: Signal Bot: "Short Entry on {ticker}"\n')
             bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
