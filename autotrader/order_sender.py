@@ -6,8 +6,8 @@ from pynput.keyboard import Controller, Key
 
 import discord
 
-DISCORD_TOKEN = "your_discord_token"
-CHANNEL_NAME = "chart-triggers"
+DISCORD_TOKEN = "ODk2NDIyOTg1MTc3NjUzMzEw.GHEHKK.LjBUlyMpxp1UNnbBK87yoKviM5SSK85e02OeMI"
+CHANNEL_NAME = "futures-trades"
 author_window_map = {
     "ES Alert": "Chart - ES 06-23",
     "NQ Alert": "Chart - NQ 06-23",
@@ -57,7 +57,7 @@ async def on_ready():
 async def on_message(message):
     if message.channel.name == CHANNEL_NAME and message.author.name in author_window_map:
         now = datetime.datetime.now()
-        print(message.content)
+        ticker = message.author.name[:-6]
 
         # Switch to the corresponding window for the message author
         switch_to_window(author_window_map[message.author.name])
@@ -67,7 +67,7 @@ async def on_message(message):
         if "open long position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
             print(f'\n{now}: Signal Bot: "Long Entry"\n')
-            bot_message = "Closed any open positions, Entered long"
+            bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "b"])
 
@@ -75,19 +75,19 @@ async def on_message(message):
             await send_key_combination([Key.alt, Key.shift, "c"])
             print(
                 f'\n{now}: Signal Bot: "Short Entry"\n')
-            bot_message = "Closed any open positions, Entered short"
+            bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
 
         elif "close" in content:
-            print(f'\n{now}: Signal Bot: "Flattened position, all out"\n')
-            bot_message = "Closed position, all out"
+            print(f'\n{now}: Signal Bot: "Flattened {ticker} position, all out"\n')
+            bot_message = f"Closed {ticker} position, all out"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
 
         elif "profit" in content:
-            print(f'\n{now}: Signal Bot: "Taking Profit, all out"\n')
-            bot_message = "Bag secured"
+            print(f'\n{now}: Signal Bot: "Taking {ticker} Profit, all out"\n')
+            bot_message = f"{ticker} Bag secured"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
 
