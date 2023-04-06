@@ -75,7 +75,7 @@ async def on_message(message):
             await send_key_combination([Key.alt, Key.shift, "c"])
             print(
                 f'\n{now}: Signal Bot: "Short Entry on {ticker}"\n')
-            bot_message = f"Closed any open {ticker} positions, Entered long"
+            bot_message = f"Closed any open {ticker} positions, Entered short"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
 
