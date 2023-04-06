@@ -1,21 +1,21 @@
 using System;
-using System.Windows.Media;
 using NinjaTrader.Cbi;
 using NinjaTrader.Gui.Tools;
 using NinjaTrader.NinjaScript;
 using NinjaTrader.Gui;
+using System.Windows.Threading;
 
 namespace NinjaTrader.NinjaScript.AddOns
 {
     public class AutoRefreshTradePerformance : AddOnBase
     {
-        private System.Windows.Forms.Timer timer;
+        private DispatcherTimer timer;
 
         public AutoRefreshTradePerformance()
         {
-            timer = new System.Windows.Forms.Timer();
+            timer = new DispatcherTimer();
             timer.Tick += Timer_Tick;
-            timer.Interval = 10000; // Set the refresh interval in milliseconds (e.g., 10000 = 10 seconds)
+            timer.Interval = TimeSpan.FromSeconds(10); // Set the refresh interval (e.g., 10 seconds)
             timer.Start();
         }
 
@@ -23,21 +23,23 @@ namespace NinjaTrader.NinjaScript.AddOns
         {
             if (Core.Globals.UserDataDir != null)
             {
-                NinjaTrader.NinjaScript.AddOns.Performance.PerformanceViewModel viewModel = null;
+                NinjaTrader.Gui.TradePerformance.TradePerformanceWindow tradePerformanceWindow = null;
 
                 foreach (var window in Core.Globals.AllWindows)
                 {
                     if (window.GetType().Name == "TradePerformanceWindow")
                     {
-                        var tradePerformanceWindow = window as NinjaTrader.Gui.TradePerformance.TradePerformanceWindow;
-                        viewModel = (NinjaTrader.NinjaScript.AddOns.Performance.PerformanceViewModel)tradePerformanceWindow.DataContext;
+                        tradePerformanceWindow = window as NinjaTrader.Gui.TradePerformance.TradePerformanceWindow;
                         break;
                     }
                 }
 
-                if (viewModel != null)
+                if (tradePerformanceWindow != null)
                 {
-                    viewModel.Generate();
+                    tradePerformanceWindow.Dispatcher.Invoke(() =>
+                    {
+                        tradePerformanceWindow.Generate();
+                    });
                 }
             }
         }
