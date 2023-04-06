@@ -10,10 +10,10 @@ import discord
 DISCORD_TOKEN = "ODk2NDIyOTg1MTc3NjUzMzEw.GHEHKK.LjBUlyMpxp1UNnbBK87yoKviM5SSK85e02OeMI"
 CHANNEL_NAME = "futures-trades"
 author_window_map = {
-    "ES Alert": "Chart - ES 06-23",
-    "NQ Alert": "Chart - NQ 06-23",
-    "YM Alert": "Chart - YM 06-23",
-    "RTY Alert": "Chart - RTY 06-23",
+    "NQ 15 Second": "Chart - NQ15s",
+    "NQ 30 Second": "Chart - NQ30s",
+    "NQ 1 Min": "Chart - NQm1",
+    "NQ 3 Min": "Chart - NQm3",
 }
 
 intents = discord.Intents.default()
