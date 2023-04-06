@@ -1,6 +1,7 @@
 import asyncio
 import datetime
 import ctypes
+import time
 from ctypes import wintypes
 from pynput.keyboard import Controller, Key
 
@@ -70,6 +71,7 @@ async def on_message(message):
             bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "b"])
+            time.sleep(1)
 
         elif "open short position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
@@ -78,17 +80,20 @@ async def on_message(message):
             bot_message = f"Closed any open {ticker} positions, Entered short"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
+            time.sleep(1)
 
         elif "close" in content:
             print(f'\n{now}: Signal Bot: "Flattened {ticker} position, all out"\n')
             bot_message = f"Closed {ticker} position, all out"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
+            time.sleep(1)
 
         elif "profit" in content:
             print(f'\n{now}: Signal Bot: "Taking {ticker} Profit, all out"\n')
             bot_message = f"{ticker} Bag secured"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
+            time.sleep(1)
 
 client.run(DISCORD_TOKEN)
