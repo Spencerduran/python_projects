@@ -4,6 +4,7 @@ using NinjaTrader.Gui.Tools;
 using NinjaTrader.NinjaScript;
 using NinjaTrader.Gui;
 using System.Windows.Threading;
+using System.Windows;
 
 namespace NinjaTrader.NinjaScript.AddOns
 {
@@ -23,13 +24,13 @@ namespace NinjaTrader.NinjaScript.AddOns
         {
             if (Core.Globals.UserDataDir != null)
             {
-                NinjaTrader.Gui.TradePerformance.TradePerformanceWindow tradePerformanceWindow = null;
+                Window tradePerformanceWindow = null;
 
                 foreach (var window in Core.Globals.AllWindows)
                 {
-                    if (window.GetType().Name == "TradePerformanceWindow")
+                    if (window.Title == "Trade Performance")
                     {
-                        tradePerformanceWindow = window as NinjaTrader.Gui.TradePerformance.TradePerformanceWindow;
+                        tradePerformanceWindow = window;
                         break;
                     }
                 }
@@ -38,7 +39,11 @@ namespace NinjaTrader.NinjaScript.AddOns
                 {
                     tradePerformanceWindow.Dispatcher.Invoke(() =>
                     {
-                        tradePerformanceWindow.Generate();
+                        var generateButton = tradePerformanceWindow.FindName("generateButton") as System.Windows.Controls.Button;
+                        if (generateButton != null)
+                        {
+                            generateButton.RaiseEvent(new RoutedEventArgs(System.Windows.Controls.Primitives.ButtonBase.ClickEvent));
+                        }
                     });
                 }
             }
