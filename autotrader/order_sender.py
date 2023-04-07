@@ -32,6 +32,8 @@ SetForegroundWindow = ctypes.windll.user32.SetForegroundWindow
 SetForegroundWindow.argtypes = [wintypes.HWND]
 SetForegroundWindow.restype = wintypes.BOOL
 
+message_queue = asyncio.Queue()
+
 
 def switch_to_window(target_window_title):
     hwnd = FindWindow(None, target_window_title)
@@ -49,14 +51,11 @@ async def send_key_combination(keys):
         keyboard.release(key)
 
 
-@client.event
-async def on_ready():
-    print(f'We have logged in as {client.user}')
+async def process_message_queue():
+    while True:
+        message = await message_queue.get()
+        # Process the message here
 
-
-@client.event
-async def on_message(message):
-    if message.channel.name == CHANNEL_NAME and message.author.name in author_window_map:
         now = datetime.datetime.now()
         ticker = message.author.name[:-6]
 
@@ -71,7 +70,6 @@ async def on_message(message):
             bot_message = f"Closed any open {ticker} positions, Entered long"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "b"])
-            time.sleep(1)
 
         elif "open short position alert" in content:
             await send_key_combination([Key.alt, Key.shift, "c"])
@@ -80,20 +78,32 @@ async def on_message(message):
             bot_message = f"Closed any open {ticker} positions, Entered short"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "s"])
-            time.sleep(1)
-
         elif "close" in content:
             print(f'\n{now}: Signal Bot: "Flattened {ticker} position, all out"\n')
             bot_message = f"Closed {ticker} position, all out"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
-            time.sleep(1)
-
         elif "profit" in content:
             print(f'\n{now}: Signal Bot: "Taking {ticker} Profit, all out"\n')
             bot_message = f"{ticker} Bag secured"
             await message.channel.send(bot_message)
             await send_key_combination([Key.alt, Key.shift, "c"])
-            time.sleep(1)
+
+        message_queue.task_done()
+        # Add a half-second sleep after processing each message
+        await asyncio.sleep(0.5)
+
+
+@client.event
+async def on_ready():
+    print(f'We have logged in as {client.user}')
+    # Start processing the message queue
+    asyncio.create_task(process_message_queue())
+
+
+@client.event
+async def on_message(message):
+    if message.channel.name == CHANNEL_NAME and message.author.name in author_window_map:
+        await message_queue.put(message)
 
 client.run(DISCORD_TOKEN)
