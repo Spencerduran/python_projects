@@ -1,0 +1,12 @@
+= join_results.py =
+- This is a tool to join multiple athena result tables together
+- The tool uses source_id to join the columns together
+
+== Example usage == 
+1. python join_results.py
+2. python join_results.py -r
+    - using the -r flag will rename each "count" column in your csvs to the name of the file
+
+= Setup: = 
+Add all csv's to be joined together to the csvs folder
+run script
