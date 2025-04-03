@@ -34,7 +34,7 @@ def is_work_hours():
     morning_start = dt_time(8, 00)  # 8:00 AM
     lunch_start = dt_time(12, 30)  # 12:45 PM
     lunch_end = dt_time(13, 30)  # 12:47 PM
-    work_end = dt_time(17, 00)  # 5:00 PM
+    work_end = dt_time(20, 00)  # 5:00 PM
 
     # Check if current time is during lunch break
     if lunch_start <= now <= lunch_end:
@@ -56,4 +56,4 @@ while True:
         print(f"Outside work hours or lunch break {now}")
 
     # Wait for next iteration (550 seconds ≈ 9 minutes)
-    time.sleep(550)
+    time.sleep(2)

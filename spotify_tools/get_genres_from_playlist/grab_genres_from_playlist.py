@@ -17,7 +17,8 @@ logger = logging.getLogger(__name__)
 
 def setup_spotify():
     """Initialize Spotify client with necessary permissions"""
-    scope = "playlist-read-private"  # Simplified scope
+    # Updated scope to include audio-features for tempo access
+    scope = "playlist-read-private user-library-read"
     try:
         return spotipy.Spotify(
             auth_manager=SpotifyOAuth(
@@ -61,24 +62,47 @@ def get_artist_genres(sp: spotipy.Spotify, artist_id: str) -> List[str]:
         return []
 
 
+def get_audio_features(sp: spotipy.Spotify, track_id: str) -> Dict:
+    """Get audio features for a track including tempo"""
+    try:
+        features = sp.audio_features(track_id)[0]
+        sleep(0.25)  # Add delay to avoid rate limiting
+        return features
+    except Exception as e:
+        logger.error(f"Error getting audio features: {str(e)}")
+        return {}
+
+
 def get_track_details(sp: spotipy.Spotify, track: Dict) -> Dict:
-    """Get genre information about a track"""
+    """Get genre and audio feature information about a track"""
     try:
         track_data = track["track"]
         artist_id = track_data["artists"][0]["id"]
+        track_id = track_data["id"]
 
         # Get artist genres
         genres = get_artist_genres(sp, artist_id)
+        
+        # Get audio features including tempo
+        audio_features = get_audio_features(sp, track_id)
+        
+        # Get tempo from audio features
+        tempo = audio_features.get("tempo", None) if audio_features else None
 
         return {
             "track_name": track_data["name"],
             "artist_name": track_data["artists"][0]["name"],
             "genres": genres,
             "artist_id": artist_id,
-            "track_id": track_data["id"],
+            "track_id": track_id,
             "popularity": track_data.get("popularity", 0),
             "album": track_data["album"]["name"],
             "release_date": track_data["album"].get("release_date", ""),
+            "tempo": tempo,  # Add tempo information
+            "danceability": audio_features.get("danceability", None) if audio_features else None,
+            "energy": audio_features.get("energy", None) if audio_features else None,
+            "key": audio_features.get("key", None) if audio_features else None,
+            "mode": audio_features.get("mode", None) if audio_features else None,
         }
     except Exception as e:
         logger.warning(
@@ -123,6 +147,7 @@ def analyze_playlist(playlist_id: str):
                         "track_name": row["track_name"],
                         "artist_name": row["artist_name"],
                         "genre": genre,
+                        "tempo": row["tempo"],  # Include tempo in genre data
                     }
                 )
 
@@ -150,6 +175,28 @@ def analyze_playlist(playlist_id: str):
                     logger.info(f"- {row['track_name']} by {row['artist_name']}")
         else:
             logger.info("No genre information found in the playlist")
+
+        # Print tempo summary
+        logger.info("\nTempo Summary:")
+        if "tempo" in df.columns:
+            avg_tempo = df["tempo"].mean()
+            min_tempo = df["tempo"].min()
+            max_tempo = df["tempo"].max()
+            logger.info(f"Average tempo: {avg_tempo:.2f} BPM")
+            logger.info(f"Min tempo: {min_tempo:.2f} BPM")
+            logger.info(f"Max tempo: {max_tempo:.2f} BPM")
+            
+            # Group songs by tempo ranges
+            tempo_ranges = {
+                "Slow (< 80 BPM)": df[df["tempo"] < 80].shape[0],
+                "Medium (80-120 BPM)": df[(df["tempo"] >= 80) & (df["tempo"] <= 120)].shape[0],
+                "Fast (> 120 BPM)": df[df["tempo"] > 120].shape[0],
+            }
+            
+            for range_name, count in tempo_ranges.items():
+                logger.info(f"{range_name}: {count} tracks")
+        else:
+            logger.info("No tempo information available")
 
     except Exception as e:
         logger.error(f"Failed to analyze playlist: {str(e)}")

@@ -1,0 +1,299 @@
+import json
+import logging
+import os
+import time
+from typing import Dict, List, Optional
+
+import pandas as pd
+import requests
+import spotipy
+from dotenv import load_dotenv
+from spotipy.oauth2 import SpotifyOAuth
+
+# Set up logging
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
+logger = logging.getLogger(__name__)
+
+# Constants for Last.fm API
+LASTFM_API_KEY = "YOUR_LASTFM_API_KEY"  # Replace with your Last.fm API key
+LASTFM_BASE_URL = "http://ws.audioscrobbler.com/2.0/"
+
+# Constants for Getsongbpm API
+GETSONGBPM_API_KEY = (
+    "YOUR_GETSONGBPM_API_KEY"  # Replace with your Getsongbpm API key if you have one
+)
+GETSONGBPM_BASE_URL = "https://api.getsongbpm.com"
+
+
+def setup_spotify():
+    """Initialize Spotify client with basic permissions"""
+    scope = "playlist-read-private"
+    try:
+        sp = spotipy.Spotify(
+            auth_manager=SpotifyOAuth(
+                client_id=os.getenv("SPOTIFY_CLIENT_ID"),
+                client_secret=os.getenv("SPOTIFY_CLIENT_SECRET"),
+                redirect_uri=os.getenv("SPOTIFY_REDIRECT_URI"),
+                scope=scope,
+                cache_path=".spotify_cache",
+            )
+        )
+        # Test the connection
+        sp.current_user()
+        logger.info("Successfully authenticated with Spotify")
+        return sp
+    except Exception as e:
+        logger.error(f"Failed to initialize Spotify client: {str(e)}")
+        raise
+
+
+def get_playlist_tracks(sp: spotipy.Spotify, playlist_id: str) -> List[Dict]:
+    """Get all tracks from a playlist with basic information"""
+    tracks = []
+    try:
+        results = sp.playlist_items(
+            playlist_id,
+            fields="items(track(id,name,artists,album(name,release_date))),next",
+            additional_types=["track"],
+        )
+        tracks.extend(results["items"])
+
+        while results["next"]:
+            results = sp.next(results)
+            tracks.extend(results["items"])
+
+        logger.info(f"Retrieved {len(tracks)} tracks from playlist")
+        return tracks
+    except Exception as e:
+        logger.error(f"Error fetching playlist tracks: {str(e)}")
+        raise
+
+
+def extract_track_info(playlist_tracks: List[Dict]) -> List[Dict]:
+    """Extract relevant information from track data"""
+    tracks_info = []
+
+    for item in playlist_tracks:
+        track = item.get("track")
+        if not track:  # Skip any invalid tracks
+            continue
+
+        tracks_info.append(
+            {
+                "track_id": track.get("id", ""),
+                "track_name": track.get("name", "Unknown"),
+                "artist_name": (
+                    track["artists"][0].get("name", "Unknown")
+                    if track.get("artists")
+                    else "Unknown"
+                ),
+                "album": track.get("album", {}).get("name", "Unknown"),
+                "release_date": track.get("album", {}).get("release_date", ""),
+                "bpm": None,  # Will be filled in later
+            }
+        )
+
+    return tracks_info
+
+
+def get_bpm_from_lastfm(track_name: str, artist_name: str) -> Optional[float]:
+    """Try to get BPM info from Last.fm API"""
+    try:
+        params = {
+            "method": "track.getInfo",
+            "api_key": LASTFM_API_KEY,
+            "artist": artist_name,
+            "track": track_name,
+            "format": "json",
+        }
+
+        response = requests.get(LASTFM_BASE_URL, params=params)
+        data = response.json()
+
+        # Last.fm doesn't directly provide BPM, but sometimes it's in the tags
+        if "track" in data and "toptags" in data["track"]:
+            tags = data["track"]["toptags"].get("tag", [])
+            for tag in tags:
+                tag_name = tag.get("name", "").lower()
+                if "bpm" in tag_name:
+                    # Try to extract BPM value from tag
+                    try:
+                        return float(tag_name.replace("bpm", "").strip())
+                    except ValueError:
+                        pass
+
+        time.sleep(0.5)  # Rate limiting
+        return None
+    except Exception as e:
+        logger.warning(f"Error getting BPM from Last.fm for {track_name}: {str(e)}")
+        return None
+
+
+def get_bpm_from_songbpm_api(track_name: str, artist_name: str) -> Optional[float]:
+    """Try to get BPM info from Getsongbpm API if you have API access"""
+    if not GETSONGBPM_API_KEY or GETSONGBPM_API_KEY == "YOUR_GETSONGBPM_API_KEY":
+        return None
+
+    try:
+        headers = {"X-API-KEY": GETSONGBPM_API_KEY}
+
+        # Search for the track
+        params = {"type": "both", "lookup": f"{track_name} {artist_name}"}
+
+        response = requests.get(
+            f"{GETSONGBPM_BASE_URL}/search/", headers=headers, params=params
+        )
+        data = response.json()
+
+        # Check if we got any results
+        if "search" in data and data["search"]:
+            for result in data["search"]:
+                if "tempo" in result and result["tempo"]:
+                    return float(result["tempo"])
+
+        time.sleep(0.5)  # Rate limiting
+        return None
+    except Exception as e:
+        logger.warning(f"Error getting BPM from SongBPM API for {track_name}: {str(e)}")
+        return None
+
+
+def estimate_bpm(track_name: str, artist_name: str) -> Optional[float]:
+    """Use a predefined genre-BPM mapping to estimate BPM based on keywords in track title"""
+    # Define common EDM genre BPM ranges
+    genre_bpm_map = {
+        "house": 125,
+        "deep house": 124,
+        "tech house": 126,
+        "progressive house": 128,
+        "techno": 130,
+        "minimal": 127,
+        "trance": 138,
+        "psytrance": 145,
+        "drum and bass": 174,
+        "dnb": 175,
+        "dubstep": 140,
+        "trap": 70,
+        "ambient": 85,
+        "chillout": 90,
+        "lofi": 85,
+        "downtempo": 95,
+    }
+
+    # Check track name and artist for genre keywords
+    track_artist_lower = f"{track_name} {artist_name}".lower()
+
+    for genre, bpm in genre_bpm_map.items():
+        if genre in track_artist_lower:
+            return float(bpm)
+
+    return None
+
+
+def get_track_bpm(track_name: str, artist_name: str) -> Optional[float]:
+    """Try multiple methods to get BPM for a track"""
+    # Method 1: Try Last.fm API
+    bpm = get_bpm_from_lastfm(track_name, artist_name)
+    if bpm:
+        return bpm
+
+    # Method 2: Try Getsongbpm API if available
+    bpm = get_bpm_from_songbpm_api(track_name, artist_name)
+    if bpm:
+        return bpm
+
+    # Method 3: Estimate from genre keywords
+    bpm = estimate_bpm(track_name, artist_name)
+    if bpm:
+        return bpm
+
+    return None
+
+
+def create_output_files(tracks_info: List[Dict], playlist_name: str):
+    """Create output files"""
+    # Create CSV file
+    csv_file = "playlist_with_bpm.csv"
+    df = pd.DataFrame(tracks_info)
+    df.to_csv(csv_file, index=False)
+    logger.info(f"Exported track data with BPM to {csv_file}")
+
+    # Create a text file with BPM info
+    txt_file = "tracks_bpm_list.txt"
+    with open(txt_file, "w") as f:
+        f.write(f"Track List with BPM for Playlist: {playlist_name}\n\n")
+        for track in tracks_info:
+            bpm_str = f"{track['bpm']:.1f} BPM" if track["bpm"] else "Unknown BPM"
+            f.write(f"{track['track_name']} by {track['artist_name']}: {bpm_str}\n")
+
+    logger.info(f"Created {txt_file} with track BPMs")
+
+    # Create a JSON file for programmatic use
+    json_file = "tracks_bpm.json"
+    with open(json_file, "w") as f:
+        json.dump(tracks_info, f, indent=2)
+
+    logger.info(f"Created {json_file} with track data and BPMs")
+
+
+def analyze_playlist_bpm(playlist_id: str):
+    """Get tracks from a playlist and find BPM information"""
+    try:
+        sp = setup_spotify()
+
+        # Get playlist info
+        playlist_info = sp.playlist(playlist_id, fields="name,description")
+        playlist_name = playlist_info["name"]
+        logger.info(f"Finding BPM for tracks in playlist: {playlist_name}")
+
+        # Get all tracks from playlist
+        playlist_tracks = get_playlist_tracks(sp, playlist_id)
+
+        # Extract track information
+        tracks_info = extract_track_info(playlist_tracks)
+
+        # Get BPM for each track
+        for i, track in enumerate(tracks_info):
+            logger.info(
+                f"Finding BPM for track {i+1}/{len(tracks_info)}: {track['track_name']}"
+            )
+            track["bpm"] = get_track_bpm(track["track_name"], track["artist_name"])
+
+        # Create output files
+        create_output_files(tracks_info, playlist_name)
+
+        # Print summary
+        bpm_found_count = sum(1 for track in tracks_info if track["bpm"])
+        logger.info(f"Found BPM for {bpm_found_count}/{len(tracks_info)} tracks")
+
+        # Calculate average BPM if available
+        bpms = [track["bpm"] for track in tracks_info if track["bpm"]]
+        if bpms:
+            avg_bpm = sum(bpms) / len(bpms)
+            logger.info(f"Average BPM: {avg_bpm:.1f}")
+
+    except Exception as e:
+        logger.error(f"Failed to analyze playlist: {str(e)}")
+        raise
+
+
+def main():
+    # Load environment variables
+    load_dotenv()
+
+    # Check if playlist ID is available
+    playlist_id = os.getenv("SPOTIFY_PLAYLIST_ID")
+    if not playlist_id:
+        logger.error("SPOTIFY_PLAYLIST_ID not found in environment variables")
+        return
+
+    # Remove any quotes and query parameters
+    playlist_id = playlist_id.strip("\"'").split("?")[0]
+
+    analyze_playlist_bpm(playlist_id)
+
+
+if __name__ == "__main__":
+    main()
