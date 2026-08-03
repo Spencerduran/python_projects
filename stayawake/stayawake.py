@@ -25,9 +25,9 @@ def is_work_hours():
         bool: True if current time is during work hours and not lunch break
     """
     now = datetime.now().time()
-    morning_start = dt_time(8, 00)  # 8:00 AM
+    morning_start = dt_time(7, 50)  # 8:00 AM
     lunch_start = dt_time(12, 30)  # 12:30 PM
-    lunch_end = dt_time(13, 30)  # 1:30 PM
+    lunch_end = dt_time(12, 31)  # 1:30 PM
     work_end = dt_time(20, 00)  # 8:00 PM
 
     # Check if current time is during lunch break
@@ -58,6 +58,10 @@ while True:
 
         # Move mouse to the constrained position
         pyautogui.moveTo(new_x, new_y)
+
+        # Press and release a no-op key to simulate activity
+        pyautogui.keyDown("shift")
+        pyautogui.keyUp("shift")
 
         now = datetime.now().time()
         print(f"Moved mouse by ({move_x}, {move_y}) to ({new_x}, {new_y}) at {now}")
